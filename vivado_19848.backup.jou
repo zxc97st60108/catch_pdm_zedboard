@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Nov 20 00:26:54 2020
+# Process ID: 19848
+# Current directory: D:/Vivado/catch_pdm_zedboard
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7828 D:\Vivado\catch_pdm_zedboard\catch_pdm_zedboard.xpr
+# Log file: D:/Vivado/catch_pdm_zedboard/vivado.log
+# Journal file: D:/Vivado/catch_pdm_zedboard\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
