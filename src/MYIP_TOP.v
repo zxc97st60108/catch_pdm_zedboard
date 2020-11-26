@@ -14,7 +14,9 @@ module  MYIP_TOP (
             hsel_es1,
             hrdata_es1,
             hresp_es1,
-            hreadyout_es1
+            hreadyout_es1,
+            pdm_signal,
+            pdm_clk
 
         );
 
@@ -29,7 +31,8 @@ input[31:0]  hwdata; 	       // AHB write data bus
 input[31:0]  hrdata; 	       // AHB read data bus
 input        hready; 	       // Transfer ready
 input[1:0]   hresp;  	       // Transfer reponse
-
+input pdm_signal;
+input pdm_clk;
 
 input			 hsel_es1;               // Chip select for External Slave
 output[31:0] hrdata_es1;     	    // AHB read data bus from External Slave
@@ -61,12 +64,12 @@ reg [2:0] NextState;
 
 
 wire cen, bsy;
-wire [1:0]ctrl;
+wire ctrl;
 wire [31:0] dout;
 reg hwrite_reg;
 reg cen_wait;
 
-assign ctrl = (hwrite_reg && (haddr_reg == 32'h80000100))? hwdata[1:0] : 2'b00;
+assign ctrl = (hwrite_reg && (haddr_reg == 32'h8016E3A0))? hwdata[0] : 1'b0;
 
 // store haddr at address phase
 always @(negedge hreset_n or posedge g_hclk_es1)
@@ -80,12 +83,12 @@ end
 always @(negedge hreset_n or posedge g_hclk_es1)
 begin
     if (hreset_n == 0)
-        hwrite_reg <= 32'h0;
+        hwrite_reg <= 1'b0;
     else
         hwrite_reg <= hwrite;
 end
 
-assign hrdata_es1 = (haddr_reg == 32'h8000_0104)? {31'h0000_0000, bsy} : dout;
+assign hrdata_es1 = (haddr_reg == 32'h8016E3A4)? {31'h0000_0000, bsy} : dout;
 assign hreadyout_es1 = (cen_wait == 1'b0)? 1'b1:1'b0;
 assign hresp_es1     = 2'b00;
 
@@ -100,11 +103,12 @@ begin
 end
 
 pdm_m pdm(
-          .clk(g_hclk_es1),
+          .AHBclk(g_hclk_es1),
+          .PDMclk(pdm_clk),
           .rst(hreset_n),
           .ctrl(ctrl),
           .addr(haddr_reg),
-          .pdm_signal(hwdata[0]),
+          .pdm_signal(pdm_signal),
           .dout(dout),
           .bsy(bsy)
       );

@@ -17,6 +17,9 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param general.maxThreads 8
+set_param synth.elaboration.rodinMoreOptions {rt::set_parameter var_size_limit 4194304}
+set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7z020clg484-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -28,17 +31,15 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo d:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_verilog D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/Param.v
-set_property file_type "Verilog Header" [get_files D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/Param.v]
+read_verilog D:/Vivado/catch_pdm_zedboard/src/Param.v
+set_property file_type "Verilog Header" [get_files D:/Vivado/catch_pdm_zedboard/src/Param.v]
 read_verilog -library xil_defaultlib {
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/MYIP_TOP.v
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/accumulator.v
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/crom.v
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/dbuf.v
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/fir.v
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/multi.v
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/sysctrl.v
-  D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v
+  D:/Vivado/catch_pdm_zedboard/src/MYIP_TOP.v
+  D:/Vivado/catch_pdm_zedboard/src/dbuf.v
+  D:/Vivado/catch_pdm_zedboard/src/pdm.v
+  D:/Vivado/catch_pdm_zedboard/src/shift_pdm.v
+  D:/Vivado/catch_pdm_zedboard/src/sysctrl.v
+  D:/Vivado/catch_pdm_zedboard/src/system.v
 }
 read_edif D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_ahblite_bridge_0_wrapper.ngc
 read_edif D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_clkgen_0_wrapper.ngc

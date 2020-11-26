@@ -14,48 +14,48 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 19700 
+INFO: Helper process launched with PID 13104 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 432.250 ; gain = 99.840
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 432.035 ; gain = 99.934
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'system' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:8]
-INFO: [Synth 8-6157] synthesizing module 'system_vga_flyinglogo_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3032]
-INFO: [Synth 8-6155] done synthesizing module 'system_vga_flyinglogo_0_wrapper' (1#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3032]
-INFO: [Synth 8-6157] synthesizing module 'system_util_vector_logic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3049]
-INFO: [Synth 8-6155] done synthesizing module 'system_util_vector_logic_0_wrapper' (2#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3049]
-INFO: [Synth 8-6157] synthesizing module 'system_processing_system7_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3060]
-INFO: [Synth 8-6155] done synthesizing module 'system_processing_system7_0_wrapper' (3#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3060]
-INFO: [Synth 8-6157] synthesizing module 'system_clock_generator_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4413]
-INFO: [Synth 8-6155] done synthesizing module 'system_clock_generator_0_wrapper' (4#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4413]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_vdma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4468]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_vdma_0_wrapper' (5#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4468]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_spdif_tx_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4665]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_spdif_tx_0_wrapper' (6#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4665]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_3_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4726]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_3_wrapper' (7#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:4726]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_2_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:5139]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_2_wrapper' (8#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:5139]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_1_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:5552]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_1_wrapper' (9#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:5552]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:5965]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_0_wrapper' (10#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:5965]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_iic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6378]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_iic_0_wrapper' (11#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6378]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6437]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' (12#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6437]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_dma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6518]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_dma_0_wrapper' (13#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6518]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_clkgen_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6733]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_clkgen_0_wrapper' (14#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6733]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_ahblite_bridge_0_wrapper' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6780]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_ahblite_bridge_0_wrapper' (15#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:6780]
+INFO: [Synth 8-6157] synthesizing module 'system' [D:/Vivado/catch_pdm_zedboard/src/system.v:5]
+INFO: [Synth 8-6157] synthesizing module 'system_vga_flyinglogo_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3010]
+INFO: [Synth 8-6155] done synthesizing module 'system_vga_flyinglogo_0_wrapper' (1#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3010]
+INFO: [Synth 8-6157] synthesizing module 'system_util_vector_logic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3027]
+INFO: [Synth 8-6155] done synthesizing module 'system_util_vector_logic_0_wrapper' (2#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3027]
+INFO: [Synth 8-6157] synthesizing module 'system_processing_system7_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3038]
+INFO: [Synth 8-6155] done synthesizing module 'system_processing_system7_0_wrapper' (3#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3038]
+INFO: [Synth 8-6157] synthesizing module 'system_clock_generator_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4391]
+INFO: [Synth 8-6155] done synthesizing module 'system_clock_generator_0_wrapper' (4#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4391]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_vdma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4446]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_vdma_0_wrapper' (5#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4446]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_spdif_tx_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4643]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_spdif_tx_0_wrapper' (6#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4643]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_3_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4704]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_3_wrapper' (7#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4704]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_2_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5117]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_2_wrapper' (8#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5117]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_1_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5530]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_1_wrapper' (9#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5530]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5943]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_0_wrapper' (10#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5943]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_iic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6356]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_iic_0_wrapper' (11#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6356]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6415]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' (12#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6415]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_dma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6496]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_dma_0_wrapper' (13#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6496]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_clkgen_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6711]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_clkgen_0_wrapper' (14#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6711]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_ahblite_bridge_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6758]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_ahblite_bridge_0_wrapper' (15#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6758]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (16#1) [C:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
-INFO: [Synth 8-6157] synthesizing module 'MYIP_TOP' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/MYIP_TOP.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MYIP_TOP' [D:/Vivado/catch_pdm_zedboard/src/MYIP_TOP.v:2]
 	Parameter TRN_IDLE bound to: 2'b00 
 	Parameter TRN_BUSY bound to: 2'b01 
 	Parameter TRN_NONSEQ bound to: 2'b10 
@@ -64,73 +64,50 @@ INFO: [Synth 8-6157] synthesizing module 'MYIP_TOP' [D:/Vivado/catch_pdm_zedboar
 	Parameter RSP_ERROR bound to: 2'b01 
 	Parameter RSP_RETRY bound to: 2'b10 
 	Parameter RSP_SPLIT bound to: 2'b11 
-INFO: [Synth 8-6157] synthesizing module 'fir' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/fir.v:1]
-INFO: [Synth 8-6157] synthesizing module 'sysctrl' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/sysctrl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pdm_m' [D:/Vivado/catch_pdm_zedboard/src/pdm.v:2]
+INFO: [Synth 8-6157] synthesizing module 'sysctrl' [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:1]
 	Parameter Idle bound to: 0 - type: integer 
-	Parameter Calculate bound to: 1 - type: integer 
-	Parameter Depth bound to: 37 - type: integer 
-INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/sysctrl.v:30]
-INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/sysctrl.v:54]
-INFO: [Synth 8-6155] done synthesizing module 'sysctrl' (17#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/sysctrl.v:1]
-INFO: [Synth 8-6157] synthesizing module 'crom' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/crom.v:1]
-	Parameter coefficent00 bound to: 16'b0000000000000001 
-	Parameter coefficent01 bound to: 16'b0000000000000010 
-	Parameter coefficent02 bound to: 16'b0000000000000011 
-	Parameter coefficent03 bound to: 16'b0000000000000100 
-	Parameter coefficent04 bound to: 16'b0000000000000101 
-	Parameter coefficent05 bound to: 16'b0000000000000100 
-	Parameter coefficent06 bound to: 16'b0000000000000011 
-	Parameter coefficent07 bound to: 16'b0000000000000010 
-	Parameter coefficent08 bound to: 16'b0000000000000001 
-	Parameter coefficent09 bound to: 16'b0000000000000000 
-	Parameter coefficent10 bound to: 16'b0000000000000000 
-	Parameter coefficent11 bound to: 16'b0000000000000000 
-	Parameter coefficent12 bound to: 16'b0000000000000000 
-	Parameter coefficent13 bound to: 16'b0000000000000000 
-	Parameter coefficent14 bound to: 16'b0000000000000000 
-	Parameter coefficent15 bound to: 16'b0000000000000000 
-INFO: [Synth 8-6155] done synthesizing module 'crom' (18#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/crom.v:1]
-INFO: [Synth 8-6157] synthesizing module 'dbuf' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/dbuf.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'dbuf' (19#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/dbuf.v:1]
-INFO: [Synth 8-6157] synthesizing module 'multi' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/multi.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'multi' (20#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/multi.v:1]
-INFO: [Synth 8-6157] synthesizing module 'accumulator' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/accumulator.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'accumulator' (21#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/accumulator.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'fir' (22#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/fir.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'MYIP_TOP' (23#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/MYIP_TOP.v:1]
-WARNING: [Synth 8-689] width (4) of port connection 'hsize' does not match port width (3) of module 'MYIP_TOP' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3018]
-WARNING: [Synth 8-689] width (1) of port connection 'hresp_es1' does not match port width (2) of module 'MYIP_TOP' [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:3026]
-INFO: [Synth 8-6155] done synthesizing module 'system' (24#1) [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/code/system.v:8]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[35]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[34]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[33]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[32]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[31]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[30]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[29]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[28]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[27]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[26]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[25]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[24]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[23]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[22]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[21]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[20]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[19]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[18]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[17]
-WARNING: [Synth 8-3331] design sysctrl has unconnected port acc[16]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[15]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[14]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[13]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[12]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[11]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[10]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[9]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[8]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[1]
-WARNING: [Synth 8-3331] design fir has unconnected port addr[0]
+	Parameter Shift bound to: 1 - type: integer 
+	Parameter bound bound to: 46874 - type: integer 
+	Parameter coefficent00 bound to: 1 - type: integer 
+	Parameter coefficent01 bound to: 2 - type: integer 
+	Parameter coefficent02 bound to: 3 - type: integer 
+	Parameter coefficent03 bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:50]
+INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'sysctrl' (17#1) [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dbuf' [D:/Vivado/catch_pdm_zedboard/src/dbuf.v:1]
+	Parameter Idle bound to: 0 - type: integer 
+	Parameter Shift bound to: 1 - type: integer 
+	Parameter bound bound to: 46874 - type: integer 
+	Parameter coefficent00 bound to: 1 - type: integer 
+	Parameter coefficent01 bound to: 2 - type: integer 
+	Parameter coefficent02 bound to: 3 - type: integer 
+	Parameter coefficent03 bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dbuf' (18#1) [D:/Vivado/catch_pdm_zedboard/src/dbuf.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_pdm' [D:/Vivado/catch_pdm_zedboard/src/shift_pdm.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'shift_pdm' (19#1) [D:/Vivado/catch_pdm_zedboard/src/shift_pdm.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'pdm_m' (20#1) [D:/Vivado/catch_pdm_zedboard/src/pdm.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'MYIP_TOP' (21#1) [D:/Vivado/catch_pdm_zedboard/src/MYIP_TOP.v:2]
+WARNING: [Synth 8-689] width (4) of port connection 'hsize' does not match port width (3) of module 'MYIP_TOP' [D:/Vivado/catch_pdm_zedboard/src/system.v:2986]
+WARNING: [Synth 8-689] width (1) of port connection 'hresp_es1' does not match port width (2) of module 'MYIP_TOP' [D:/Vivado/catch_pdm_zedboard/src/system.v:2994]
+INFO: [Synth 8-6155] done synthesizing module 'system' (22#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[31]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[30]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[29]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[28]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[27]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[26]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[25]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[24]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[23]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[22]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[21]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[20]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[19]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[18]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[1]
+WARNING: [Synth 8-3331] design pdm_m has unconnected port addr[0]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port htrans[1]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port htrans[0]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hsize[2]
@@ -155,6 +132,21 @@ WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[19]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[18]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[17]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[16]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[15]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[14]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[13]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[12]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[11]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[10]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[9]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[8]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[7]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[6]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[5]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[4]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[3]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[2]
+WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hwdata[1]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hrdata[31]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hrdata[30]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hrdata[29]
@@ -192,7 +184,7 @@ WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hresp[1]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hresp[0]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hsel_es1
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 491.109 ; gain = 158.699
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 520.676 ; gain = 188.574
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -205,10 +197,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 491.109 ; gain = 158.699
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 520.676 ; gain = 188.574
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 491.109 ; gain = 158.699
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 520.676 ; gain = 188.574
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -219,37 +211,38 @@ Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc]
 Finished Parsing XDC File [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 840.227 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.570 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 840.227 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.570 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 62 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 62 instances
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 840.227 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 840.227 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 834.570 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 834.570 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 840.227 ; gain = 507.816
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 834.570 ; gain = 502.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 840.227 ; gain = 507.816
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 834.570 ; gain = 502.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 840.227 ; gain = 507.816
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 834.570 ; gain = 502.469
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "NS" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 840.227 ; gain = 507.816
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.469
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -262,24 +255,18 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      6 Bit       Adders := 2     
-	   2 Input      4 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
 +---Registers : 
-	               32 Bit    Registers := 1     
-	               16 Bit    Registers := 3     
-	                6 Bit    Registers := 2     
-	                4 Bit    Registers := 2     
-	                3 Bit    Registers := 1     
+	               32 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
 	                1 Bit    Registers := 3     
 +---RAMs : 
-	             1024 Bit         RAMs := 2     
+	            1464K Bit         RAMs := 1     
 +---Muxes : 
-	   2 Input     16 Bit        Muxes := 2     
-	   2 Input      6 Bit        Muxes := 3     
-	   2 Input      4 Bit        Muxes := 2     
-	  16 Input      3 Bit        Muxes := 1     
-	   2 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 5     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
 	   3 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -291,43 +278,36 @@ Hierarchical RTL Component report
 Module sysctrl 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      6 Bit       Adders := 2     
-	   2 Input      4 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
 +---Registers : 
-	               16 Bit    Registers := 1     
-	                6 Bit    Registers := 2     
-	                4 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input      6 Bit        Muxes := 2     
-	   2 Input      4 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 5     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
 	   3 Input      1 Bit        Muxes := 1     
-Module crom 
-Detailed RTL Component Info : 
-+---Registers : 
-	                3 Bit    Registers := 1     
-+---Muxes : 
-	  16 Input      3 Bit        Muxes := 1     
 Module dbuf 
 Detailed RTL Component Info : 
 +---Registers : 
-	               16 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
 +---RAMs : 
-	             1024 Bit         RAMs := 1     
-Module fir 
+	            1464K Bit         RAMs := 1     
+Module shift_pdm 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module pdm_m 
 Detailed RTL Component Info : 
 +---Muxes : 
 	   2 Input     16 Bit        Muxes := 1     
-	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
 Module MYIP_TOP 
 Detailed RTL Component Info : 
 +---Registers : 
 	               32 Bit    Registers := 1     
 	                1 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input     16 Bit        Muxes := 1     
-	   2 Input      2 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -345,7 +325,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 840.227 ; gain = 507.816
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 834.570 ; gain = 502.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -355,16 +335,45 @@ Block RAM: Preliminary Mapping  Report (see note below)
 +------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|dbuf:       | mem_reg    | 64 x 16(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|dbuf:       | mem_reg    | 64 x 16(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|dbuf:       | mem_reg    | 64 K x 32(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 64     | 
 +------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/fir/buff_in/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_1/MYIP_TOP_0/fir/buff_m/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_16 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_17 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_18 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_20 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_21 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_22 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_24 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_25 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_26 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_28 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_29 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0i_0/MYIP_TOP_0/pdm/buff_m/mem_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -375,13 +384,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 850.063 ; gain = 517.652
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 853.180 ; gain = 521.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 850.660 ; gain = 518.250
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 853.922 ; gain = 521.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -391,8 +400,7 @@ Block RAM: Final Mapping  Report
 +------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-|dbuf:       | mem_reg    | 64 x 16(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
-|dbuf:       | mem_reg    | 64 x 16(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
+|dbuf:       | mem_reg    | 64 K x 32(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 64     | 
 +------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 ---------------------------------------------------------------------------------
@@ -407,10 +415,40 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/fir/buff_in/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/fir/buff_m/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_16 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_17 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_18 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_20 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_21 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_22 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_24 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_25 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_26 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_28 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_29 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -430,6 +468,9 @@ Finished Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
 Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep__1_n_0  is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep__0_n_0  is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep_n_0  is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
@@ -486,7 +527,7 @@ CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnec
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnected pin S_AXI_ARLEN[5]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnected pin S_AXI_ARLEN[4]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -499,7 +540,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -511,25 +552,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -575,42 +616,39 @@ Report Cell Usage:
 |13    |system_processing_system7_0_wrapper |     1|
 |14    |system_util_vector_logic_0_wrapper  |     1|
 |15    |system_vga_flyinglogo_0_wrapper     |     1|
-|16    |CARRY4                              |     8|
-|17    |LUT1                                |     3|
-|18    |LUT2                                |    30|
-|19    |LUT3                                |    25|
-|20    |LUT4                                |    19|
-|21    |LUT5                                |    16|
-|22    |LUT6                                |    60|
-|23    |RAMB18E1                            |     2|
-|24    |FDCE                                |    54|
-|25    |FDPE                                |     1|
-|26    |FDRE                                |    51|
+|16    |BUFG                                |     1|
+|17    |CARRY4                              |     4|
+|18    |LUT1                                |     2|
+|19    |LUT3                                |    67|
+|20    |LUT4                                |    35|
+|21    |LUT5                                |    36|
+|22    |LUT6                                |    12|
+|23    |RAMB36E1                            |    32|
+|24    |RAMB36E1_1                          |    32|
+|25    |FDCE                                |    79|
+|26    |FDRE                                |    32|
 |27    |IBUF                                |     2|
 |28    |IOBUF                               |    62|
 |29    |OBUF                                |    35|
 +------+------------------------------------+------+
 
 Report Instance Areas: 
-+------+--------------+------------+------+
-|      |Instance      |Module      |Cells |
-+------+--------------+------------+------+
-|1     |top           |            | 13310|
-|2     |  MYIP_TOP_0  |MYIP_TOP    |   269|
-|3     |    fir       |fir         |   225|
-|4     |      acc_m   |accumulator |    16|
-|5     |      buff_in |dbuf        |    17|
-|6     |      buff_m  |dbuf_0      |    28|
-|7     |      coef_m  |crom        |     4|
-|8     |      ctrl_m  |sysctrl     |   121|
-|9     |      mult_m  |multi       |    39|
-+------+--------------+------------+------+
++------+--------------+----------+------+
+|      |Instance      |Module    |Cells |
++------+--------------+----------+------+
+|1     |top           |          | 13373|
+|2     |  MYIP_TOP_0  |MYIP_TOP  |   331|
+|3     |    pdm       |pdm_m     |   291|
+|4     |      buff_m  |dbuf      |    95|
+|5     |      ctrl_m  |sysctrl   |   164|
+|6     |      shift_m |shift_pdm |    32|
++------+--------------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 52 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 879.266 ; gain = 197.738
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 879.266 ; gain = 546.855
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 884.500 ; gain = 238.504
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 884.500 ; gain = 552.398
 INFO: [Project 1-571] Translating synthesized netlist
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -622,7 +660,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_vga_flyinglogo_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4326060 kilobytes
+ngc2edif: Total memory usage is 4326172 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_vga_flyinglogo_0_wrapper.ngc' for (cell view 'system_vga_flyinglogo_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_vga_flyinglogo_0_wrapper_ngc_968c7d7c.edif]
@@ -637,7 +675,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_util_vector_logic_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4325036 kilobytes
+ngc2edif: Total memory usage is 4325148 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_util_vector_logic_0_wrapper.ngc' for (cell view 'system_util_vector_logic_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_util_vector_logic_0_wrapper_ngc_968c7d7c.edif]
@@ -652,7 +690,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_processing_system7_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4329132 kilobytes
+ngc2edif: Total memory usage is 4329244 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_processing_system7_0_wrapper.ngc' for (cell view 'system_processing_system7_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_processing_system7_0_wrapper_ngc_968c7d7c.edif]
@@ -667,7 +705,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_clock_generator_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4325036 kilobytes
+ngc2edif: Total memory usage is 4325212 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_clock_generator_0_wrapper.ngc' for (cell view 'system_clock_generator_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_clock_generator_0_wrapper_ngc_968c7d7c.edif]
@@ -718,7 +756,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_vdma_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4339372 kilobytes
+ngc2edif: Total memory usage is 4339484 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_vdma_0_wrapper.ngc' for (cell view 'system_axi_vdma_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_vdma_0_wrapper_ngc_968c7d7c.edif]
@@ -739,7 +777,7 @@ WARNING:NetListWriters:306 - Signal bus axi_spdif_tx_0/ipif_Bus2IP_RdCE[7 : 0]
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_spdif_tx_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327084 kilobytes
+ngc2edif: Total memory usage is 4327196 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_spdif_tx_0_wrapper.ngc' for (cell view 'system_axi_spdif_tx_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_spdif_tx_0_wrapper_ngc_968c7d7c.edif]
@@ -754,7 +792,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_3_wrapper.edif ...
-ngc2edif: Total memory usage is 4326508 kilobytes
+ngc2edif: Total memory usage is 4326172 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_3_wrapper.ngc' for (cell view 'system_axi_interconnect_3_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_3_wrapper_ngc_968c7d7c.edif]
@@ -786,7 +824,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_2_wrapper.edif ...
-ngc2edif: Total memory usage is 4329324 kilobytes
+ngc2edif: Total memory usage is 4330268 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_2_wrapper.ngc' for (cell view 'system_axi_interconnect_2_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_2_wrapper_ngc_968c7d7c.edif]
@@ -855,7 +893,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_1_wrapper.edif ...
-ngc2edif: Total memory usage is 4337772 kilobytes
+ngc2edif: Total memory usage is 4337500 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_1_wrapper.ngc' for (cell view 'system_axi_interconnect_1_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_1_wrapper_ngc_968c7d7c.edif]
@@ -881,7 +919,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4328108 kilobytes
+ngc2edif: Total memory usage is 4328220 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_0_wrapper.ngc' for (cell view 'system_axi_interconnect_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_0_wrapper_ngc_968c7d7c.edif]
@@ -927,7 +965,7 @@ WARNING:NetListWriters:306 - Signal bus
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_iic_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4326380 kilobytes
+ngc2edif: Total memory usage is 4327196 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_iic_0_wrapper.ngc' for (cell view 'system_axi_iic_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_iic_0_wrapper_ngc_968c7d7c.edif]
@@ -1404,7 +1442,7 @@ WARNING:NetListWriters:306 - Signal bus
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_hdmi_tx_16b_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4336492 kilobytes
+ngc2edif: Total memory usage is 4337436 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_hdmi_tx_16b_0_wrapper.ngc' for (cell view 'system_axi_hdmi_tx_16b_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_hdmi_tx_16b_0_wrapper_ngc_968c7d7c.edif]
@@ -1570,7 +1608,7 @@ WARNING:NetListWriters:306 - Signal bus
    bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_dma_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4334252 kilobytes
+ngc2edif: Total memory usage is 4334364 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_dma_0_wrapper.ngc' for (cell view 'system_axi_dma_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_dma_0_wrapper_ngc_968c7d7c.edif]
@@ -1602,7 +1640,7 @@ WARNING:NetListWriters:306 - Signal bus
    missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_clkgen_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327084 kilobytes
+ngc2edif: Total memory usage is 4327196 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_clkgen_0_wrapper.ngc' for (cell view 'system_axi_clkgen_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_clkgen_0_wrapper_ngc_968c7d7c.edif]
@@ -1637,17 +1675,17 @@ WARNING:NetListWriters:306 - Signal bus
    some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_ahblite_bridge_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327084 kilobytes
+ngc2edif: Total memory usage is 4326492 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_ahblite_bridge_0_wrapper.ngc' for (cell view 'system_axi_ahblite_bridge_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_ahblite_bridge_0_wrapper_ngc_968c7d7c.edif]
 Finished Parsing EDIF File [./.ngc2edfcache/system_axi_ahblite_bridge_0_wrapper_ngc_968c7d7c.edif]
-INFO: [Netlist 29-17] Analyzing 10583 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Netlist 29-17] Analyzing 10641 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20180726
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 946.434 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 951.004 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 7630 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 554 instances
@@ -1666,12 +1704,14 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-70 Infos, 92 Warnings, 52 Critical Warnings and 0 Errors encountered.
+129 Infos, 94 Warnings, 52 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 946.434 ; gain = 627.031
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 946.434 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:50 . Memory (MB): peak = 951.004 ; gain = 631.910
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 951.004 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.runs/synth_1/system.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file system_utilization_synth.rpt -pb system_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Nov 20 13:53:24 2020...
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 25 23:47:09 2020...

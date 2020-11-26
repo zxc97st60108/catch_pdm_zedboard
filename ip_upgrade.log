@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Nov 25 02:23:34 2020
+| Host         : DESKTOP-4I669P4 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clkwiz'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clkwiz from xilinx.com:ip:clk_wiz:5.4 (Rev. 1) to xilinx.com:ip:clk_wiz:6.0 (Rev. 2)
+
