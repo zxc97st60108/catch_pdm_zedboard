@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Wed Nov 25 23:47:09 2020
+| Date         : Thu Nov 26 22:54:01 2020
 | Host         : DESKTOP-4I669P4 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file system_utilization_synth.rpt -pb system_utilization_synth.pb
 | Design       : system
@@ -30,13 +30,13 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Fixed | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 10421 |     0 |     53200 | 19.59 |
-|   LUT as Logic             |  9710 |     0 |     53200 | 18.25 |
-|   LUT as Memory            |   711 |     0 |     17400 |  4.09 |
-|     LUT as Distributed RAM |   108 |     0 |           |       |
+| Slice LUTs*                | 10403 |     0 |     53200 | 19.55 |
+|   LUT as Logic             |  9660 |     0 |     53200 | 18.16 |
+|   LUT as Memory            |   743 |     0 |     17400 |  4.27 |
+|     LUT as Distributed RAM |   140 |     0 |           |       |
 |     LUT as Shift Register  |   603 |     0 |           |       |
-| Slice Registers            | 12090 |    94 |    106400 | 11.36 |
-|   Register as Flip Flop    | 12073 |    94 |    106400 | 11.35 |
+| Slice Registers            | 12100 |    94 |    106400 | 11.37 |
+|   Register as Flip Flop    | 12083 |    94 |    106400 | 11.36 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
 |   Register as AND/OR       |    17 |     0 |    106400 |  0.02 |
 | F7 Muxes                   |   116 |     0 |     26600 |  0.44 |
@@ -58,9 +58,9 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 119   |          Yes |           - |          Set |
-| 1023  |          Yes |           - |        Reset |
+| 1001  |          Yes |           - |        Reset |
 | 91    |          Yes |         Set |            - |
-| 10840 |          Yes |       Reset |            - |
+| 10872 |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -70,9 +70,9 @@ Table of Contents
 +-------------------+------+-------+-----------+-------+
 |     Site Type     | Used | Fixed | Available | Util% |
 +-------------------+------+-------+-----------+-------+
-| Block RAM Tile    |   72 |     0 |       140 | 51.43 |
-|   RAMB36/FIFO*    |   69 |     0 |       140 | 49.29 |
-|     RAMB36E1 only |   69 |       |           |       |
+| Block RAM Tile    |    8 |     0 |       140 |  5.71 |
+|   RAMB36/FIFO*    |    5 |     0 |       140 |  3.57 |
+|     RAMB36E1 only |    5 |       |           |       |
 |   RAMB18          |    6 |     0 |       280 |  2.14 |
 |     RAMB18E1 only |    6 |       |           |       |
 +-------------------+------+-------+-----------+-------+
@@ -95,7 +95,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+--------+
 |          Site Type          | Used | Fixed | Available |  Util% |
 +-----------------------------+------+-------+-----------+--------+
-| Bonded IOB                  |   99 |     0 |       200 |  49.50 |
+| Bonded IOB                  |   98 |     0 |       200 |  49.00 |
 | Bonded IPADs                |    0 |     0 |         2 |   0.00 |
 | Bonded IOPADs               |  130 |     0 |       130 | 100.00 |
 | PHY_CONTROL                 |    0 |     0 |         4 |   0.00 |
@@ -119,7 +119,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| BUFGCTRL   |    9 |     0 |        32 | 28.13 |
+| BUFGCTRL   |   10 |     0 |        32 | 31.25 |
 | BUFIO      |    0 |     0 |        16 |  0.00 |
 | MMCME2_ADV |    2 |     0 |         4 | 50.00 |
 | PLLE2_ADV  |    0 |     0 |         4 |  0.00 |
@@ -152,13 +152,13 @@ Table of Contents
 +------------+-------+----------------------+
 |  Ref Name  |  Used |  Functional Category |
 +------------+-------+----------------------+
-| FDRE       | 10840 |         Flop & Latch |
-| LUT6       |  2384 |                  LUT |
-| LUT3       |  2041 |                  LUT |
-| LUT2       |  1652 |                  LUT |
-| LUT4       |  1596 |                  LUT |
-| LUT5       |  1505 |                  LUT |
-| FDCE       |  1023 |         Flop & Latch |
+| FDRE       | 10872 |         Flop & Latch |
+| LUT6       |  2422 |                  LUT |
+| LUT3       |  2011 |                  LUT |
+| LUT2       |  1654 |                  LUT |
+| LUT4       |  1569 |                  LUT |
+| LUT5       |  1489 |                  LUT |
+| FDCE       |  1001 |         Flop & Latch |
 | LUT1       |   683 |                  LUT |
 | CARRY4     |   558 |           CarryLogic |
 | SRLC16E    |   492 |   Distributed Memory |
@@ -168,16 +168,16 @@ Table of Contents
 | SRLC32E    |    93 |   Distributed Memory |
 | FDSE       |    91 |         Flop & Latch |
 | RAMD64E    |    88 |   Distributed Memory |
-| RAMB36E1   |    69 |         Block Memory |
-| IBUF       |    64 |                   IO |
-| OBUFT      |    62 |                   IO |
+| IBUF       |    63 |                   IO |
+| OBUFT      |    61 |                   IO |
+| RAMS32     |    40 |   Distributed Memory |
 | OBUF       |    35 |                   IO |
 | RAMD32     |    28 |   Distributed Memory |
 | SRL16E     |    18 |   Distributed Memory |
 | AND2B1L    |    14 |               Others |
-| BUFG       |     9 |                Clock |
-| RAMS32     |     8 |   Distributed Memory |
+| BUFG       |    10 |                Clock |
 | RAMB18E1   |     6 |         Block Memory |
+| RAMB36E1   |     5 |         Block Memory |
 | OR2L       |     3 |               Others |
 | MMCME2_ADV |     2 |                Clock |
 | PS7        |     1 | Specialized Resource |

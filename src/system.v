@@ -2719,6 +2719,11 @@ IOBUF
         .O ( processing_system7_0_GPIO_I[32] ),
         .T ( processing_system7_0_GPIO_T[32] )
     );
+// IBUF
+//     ibuf_29(
+//         .I(processing_system7_0_GPIO_O[32]),
+//         .O(processing_system7_0_GPIO_I[32])
+//     );
 
 IOBUF
     iobuf_30 (
@@ -2993,8 +2998,8 @@ MYIP_TOP MYIP_TOP_0(
              .hrdata_es1		(axi_ahblite_bridge_0_M_AHB_HRDATA),
              .hresp_es1		(axi_ahblite_bridge_0_M_AHB_HRESP),
              .hreadyout_es1	(axi_ahblite_bridge_0_M_AHB_HREADY),
-             .pdm_signal   (processing_system7_0_GPIO_O[32]),
-             .pdm_clk      (processing_system7_0_GPIO_O[33])
+             .pdm_signal   (processing_system7_0_GPIO_I[32]),
+             .pdm_clk      (processing_system7_0_GPIO_I[33])
          );
 
 //input_pdm pdm(

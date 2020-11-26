@@ -110,12 +110,12 @@ void FIR_Accelerator(int A[], int result[])
 	
     *(io+(CTRL_OFFSET>>2)) = 0x1;
 	printf("give 1\n");
-	printf("addr : 0x%p \n" , (void *)(int)(io+(CTRL_OFFSET>>2)));
+	printf("addr : 0x%p \n" , (io+(CTRL_OFFSET>>2)));
 	printf("value : 0x%d \n" , *(io+(CTRL_OFFSET>>2)));
 	*(io+(CTRL_OFFSET>>2)) = 0x0;
 	
 	printf("give 0\n");
-	printf("addr2 : 0x%p \n" , (void *)(int)(io+(CTRL_OFFSET>>2)));
+	printf("addr2 : 0x%p \n" , (io+(CTRL_OFFSET>>2)));
 	printf("value2 : 0x%d \n" , *(io+(CTRL_OFFSET>>2)));
 	
 	

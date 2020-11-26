@@ -47,6 +47,7 @@ int main()
 	
 	printf("start run\n");
 	
+	*(io+(CTRL_OFFSET>>2)) = 0x0;
     *(io+(CTRL_OFFSET>>2)) = 0x1;
 	printf("give 1\n");
 	printf("addr : 0x%p \n" , (void *)(int)(io+(CTRL_OFFSET>>2)));

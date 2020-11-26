@@ -136,7 +136,7 @@ begin
     begin
         didx <= 16'd0;
     end
-    else if(counter[4]&counter[3]&counter[2]&counter[1]&counter[0])
+    else if(counter[4]&counter[3]&counter[2]&counter[1]&counter[0]) //if didx<32 then didx++
     begin
         didx <= didx+1'b1;
     end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1606319171">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1606402384">
   <File Type="BITSTR-BMM" Name="system_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="system_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="system_timing_summary_init.rpt"/>
