@@ -64,12 +64,12 @@ reg [2:0] NextState;
 
 
 wire cen, bsy;
-wire ctrl;
+wire [1:0]ctrl;
 wire [31:0] dout;
 reg hwrite_reg;
 reg cen_wait;
 
-assign ctrl = (hwrite_reg && (haddr_reg == 32'h8016E3A0))? hwdata[0] : 1'b0;
+assign ctrl = (hwrite_reg && (haddr_reg == 32'h8016E3A0))? hwdata[1:0] : 2'b00;
 
 // store haddr at address phase
 always @(negedge hreset_n or posedge g_hclk_es1)

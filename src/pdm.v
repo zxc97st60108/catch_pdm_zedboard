@@ -3,7 +3,7 @@ module pdm_m(
            input wire AHBclk,
            input wire PDMclk,
            input wire rst,
-           input wire ctrl,
+           input wire [1:0] ctrl,
            input wire [31:0] addr,      //outside memory addr;
            input wire pdm_signal,
            output wire [31:0] dout,
