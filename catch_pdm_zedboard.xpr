@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2018.3 (64-bit)              -->
+<!-- Product Version: Vivado v2018.3.1 (64-bit)              -->
 <!--                                                         -->
-<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+<!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
 <Project Version="7" Minor="39" Path="D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
@@ -206,13 +206,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/src/shift_pdm.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PPRDIR/src/sysctrl.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -222,6 +215,15 @@
       </File>
       <File Path="$PPRDIR/src/system.v">
         <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/src/shift_pdm.v">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>

@@ -41,6 +41,8 @@ module system
            vga_flyinglogo_0_RED_O_pin,
            vga_flyinglogo_0_GREEN_O_pin,
            vga_flyinglogo_0_BLUE_O_pin
+        //    pdm_clk,
+        //    pdm_signal 
            /*axi_ahblite_bridge_0_M_AHB_HCLK_pin,
            axi_ahblite_bridge_0_M_AHB_HRESETN_pin,
            axi_ahblite_bridge_0_M_AHB_HADDR_pin,
@@ -55,6 +57,10 @@ module system
            axi_ahblite_bridge_0_M_AHB_HRDATA_pin,
            axi_ahblite_bridge_0_M_AHB_HRESP_pin*/
        );
+
+// input pdm_clk;
+// input pdm_signal;
+
 inout [53:0] processing_system7_0_MIO;
 
 //input processing_system7_0_PS_SRSTB_pin;
@@ -2719,11 +2725,6 @@ IOBUF
         .O ( processing_system7_0_GPIO_I[32] ),
         .T ( processing_system7_0_GPIO_T[32] )
     );
-// IBUF
-//     ibuf_29(
-//         .I(processing_system7_0_GPIO_O[32]),
-//         .O(processing_system7_0_GPIO_I[32])
-//     );
 
 IOBUF
     iobuf_30 (
@@ -2988,7 +2989,7 @@ MYIP_TOP MYIP_TOP_0(
              .haddr			(axi_ahblite_bridge_0_M_AHB_HADDR),
              .htrans			(axi_ahblite_bridge_0_M_AHB_HTRANS),
              .hwrite			(axi_ahblite_bridge_0_M_AHB_HWRITE),
-             .hsize			({1'b0, axi_ahblite_bridge_0_M_AHB_HSIZE}),
+             .hsize			(axi_ahblite_bridge_0_M_AHB_HSIZE), //{1'b0, axi_ahblite_bridge_0_M_AHB_HSIZE}
              .hburst			(axi_ahblite_bridge_0_M_AHB_HBURST),
              .hwdata			(axi_ahblite_bridge_0_M_AHB_HWDATA),
              .hrdata			(32'b0),
@@ -2998,8 +2999,8 @@ MYIP_TOP MYIP_TOP_0(
              .hrdata_es1		(axi_ahblite_bridge_0_M_AHB_HRDATA),
              .hresp_es1		(axi_ahblite_bridge_0_M_AHB_HRESP),
              .hreadyout_es1	(axi_ahblite_bridge_0_M_AHB_HREADY),
-             .pdm_signal   (processing_system7_0_GPIO[32]),
-             .pdm_clk      (processing_system7_0_GPIO[33])
+             .pdm_signal   (processing_system7_0_GPIO_O[32]),
+             .pdm_clk      (processing_system7_0_GPIO_O[33])
          );
 
 //input_pdm pdm(

@@ -17,8 +17,8 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param general.maxThreads 8
-set_param xicom.use_bs_reader 1
+set_param synth.elaboration.rodinMoreOptions {rt::set_parameter var_size_limit 4194304}
+set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7z020clg484-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -36,7 +36,6 @@ read_verilog -library xil_defaultlib {
   D:/Vivado/catch_pdm_zedboard/src/MYIP_TOP.v
   D:/Vivado/catch_pdm_zedboard/src/dbuf.v
   D:/Vivado/catch_pdm_zedboard/src/pdm.v
-  D:/Vivado/catch_pdm_zedboard/src/shift_pdm.v
   D:/Vivado/catch_pdm_zedboard/src/sysctrl.v
   D:/Vivado/catch_pdm_zedboard/src/system.v
 }

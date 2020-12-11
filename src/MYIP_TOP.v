@@ -37,7 +37,7 @@ input pdm_clk;
 input			 hsel_es1;               // Chip select for External Slave
 output[31:0] hrdata_es1;     	    // AHB read data bus from External Slave
 output       hreadyout_es1;  	    // Transfer ready from External Slave
-output[1:0]  hresp_es1;              // Transfer response from External Slave
+output       hresp_es1;              // Transfer response from External Slave
 
 
 // -----------------------------------------------------------------------------
@@ -69,7 +69,7 @@ wire [31:0] dout;
 reg hwrite_reg;
 reg cen_wait;
 
-assign ctrl = (hwrite_reg && (haddr_reg == 32'h8016E3A0))? hwdata[1:0] : 2'b00;
+assign ctrl = (hwrite_reg && (haddr_reg == 32'h801770A4))? hwdata[1:0] : 2'b00;
 
 // store haddr at address phase
 always @(negedge hreset_n or posedge g_hclk_es1)
@@ -88,9 +88,9 @@ begin
         hwrite_reg <= hwrite;
 end
 
-assign hrdata_es1 = (haddr_reg == 32'h8016E3A4)? {31'h0000_0000, bsy} : dout;
+assign hrdata_es1 = (haddr_reg == 32'h801770A8)? {31'h0000_0000, bsy} : dout;
 assign hreadyout_es1 = (cen_wait == 1'b0)? 1'b1:1'b0;
-assign hresp_es1     = 2'b00;
+assign hresp_es1     = 1'b0; //2'b00
 
 always @(posedge g_hclk_es1 or negedge hreset_n)
 begin
@@ -113,10 +113,4 @@ pdm_m pdm(
           .bsy(bsy)
       );
 
-// pdm_m pdm(
-//     .pdm_data(hwdata[1:0]),
-//     .clock(g_hclk_es1),
-//     .rst(hreset_n),
-//     .ctrl(ctrl)
-// );
 endmodule

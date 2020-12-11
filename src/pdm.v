@@ -19,9 +19,12 @@ wire [31:0] pdm_array;
 
 //TODO: control module
 sysctrl ctrl_m(
-            .clk(AHBclk),
+            .ahb_clk(AHBclk),
+            .pdm_clk(PDMclk),
             .rst(rst),
             .ctrl(ctrl),
+            .pdm_signal(pdm_signal),         //輸入pdm資料
+            .pdm(pdm_array),
             .RW(RW),
             .didx(memory_idx),
             .bsy(bsy)
@@ -36,11 +39,11 @@ dbuf buff_m(
      );
 
 //TODO: shift pdm module
-shift_pdm shift_m(
-              .pdm_signal(pdm_signal),         //輸入pdm資料
-              .clock(PDMclk),
-              //              .pdm_data(pdm_array),
-              .pdm(pdm_array)
-          );
+// shift_pdm shift_m(
+//               .pdm_signal(pdm_signal),         //輸入pdm資料
+//               .clock(PDMclk),
+//               //              .pdm_data(pdm_array),
+//               .pdm(pdm_array)
+//           );
 
 endmodule

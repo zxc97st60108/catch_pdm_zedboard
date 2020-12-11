@@ -6,7 +6,11 @@ module dbuf(
            output reg [31:0] di
        );
 `include "Param.v"
-
+// wire [31:0] mem1 ;
+// wire [31:0] mem0 ;
+// wire mem2 [31:0];
+// wire mem1 [31:0];
+// wire mem1 [31:0];
 
 reg [31:0] mem [0:bound];
 
@@ -25,6 +29,9 @@ begin
     // mem[3] <= coefficent03;
     di <= RW ? din : mem[didx];
 end
+
+// assign mem0 = mem[999];
+// assign mem1 = mem[1000];
 
 endmodule
 

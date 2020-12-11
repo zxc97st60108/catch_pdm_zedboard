@@ -140,9 +140,9 @@ set_property -dict { PACKAGE_PIN Y10    IOSTANDARD LVCMOS33 } [get_ports { proce
 set_property src_info {type:XDC file:1 line:135 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN AA9    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[31] }];
 set_property src_info {type:XDC file:1 line:137 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN AB11   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[32] }];
+set_property -dict { PACKAGE_PIN AB11   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[32] }];    #
 set_property src_info {type:XDC file:1 line:138 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN AB10   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[33] }];
+set_property -dict { PACKAGE_PIN AB10   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[33] }];       #
 set_property src_info {type:XDC file:1 line:139 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN AB9    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[34] }];
 set_property src_info {type:XDC file:1 line:140 export:INPUT save:INPUT read:READ} [current_design]

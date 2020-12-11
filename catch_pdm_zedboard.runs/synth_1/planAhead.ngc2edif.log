@@ -20,7 +20,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_util_vector_logic_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4325148 kilobytes
+ngc2edif: Total memory usage is 4325788 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -44,7 +44,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_clock_generator_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4325532 kilobytes
+ngc2edif: Total memory usage is 4325276 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -92,7 +92,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_vdma_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4339484 kilobytes
+ngc2edif: Total memory usage is 4338588 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -110,7 +110,7 @@ WARNING:NetListWriters:306 - Signal bus axi_spdif_tx_0/ipif_Bus2IP_RdCE[7 : 0]
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_spdif_tx_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327196 kilobytes
+ngc2edif: Total memory usage is 4326492 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -122,7 +122,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_3_wrapper.edif ...
-ngc2edif: Total memory usage is 4326236 kilobytes
+ngc2edif: Total memory usage is 4326172 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -217,7 +217,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_1_wrapper.edif ...
-ngc2edif: Total memory usage is 4337436 kilobytes
+ngc2edif: Total memory usage is 4337628 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -240,7 +240,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4328220 kilobytes
+ngc2edif: Total memory usage is 4328604 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -761,6 +761,169 @@ ngc2edif: Total memory usage is 4337436 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_axi_dma_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_axi_dma_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_MMAP_SKID_BUF/sig_data_reg_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_MM2S_BASIC.I_MM2S_
+   BASIC_WRAPPER/I_ADDR_CNTL/sig_next_len_reg<4 : 2> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.I_MM2S_CMDSTS/s_axis_mm2s_cmd_
+   tdata<65 : 0> on block system_axi_dma_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.GEN_SCATTER_GATHER_MODE.I_MM2S
+   _SG_IF/updt_desc_reg2<32 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/GE
+   N_INCLUDE_STATUS_FIFO.I_STS_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<7 : 0>
+   on block system_axi_dma_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_MM2S_REGISTERS.I_MM2S_DMA_REGISTER/dmacr_i
+   <2 : 0> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_C
+   MDSTS_IF/s_axis_updt_cmd_tdata<63 : 2> on block system_axi_dma_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/s_axis_s2mm_tdata<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I_FTCH_SG/ftch_cmnd_data<
+   63 : 5> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I_FTCH_CMDSTS_IF/s_axis_f
+   tch_cmd_tdata<63 : 5> on block system_axi_dma_0_wrapper is not reconstructed,
+   because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_MM2S_BASIC.I_MM2S_
+   BASIC_WRAPPER/sig_mstr2addr_len<4 : 2> on block system_axi_dma_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_MM2S_BASIC.I_MM2S_
+   BASIC_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<63
+   : 5> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_S
+   G/updt_cmnd_data<37 : 2> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_wrdata<31
+   : 0> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_wrce<4 :
+   0> on block system_axi_dma_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/wrce<4 : 0> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_wrdata_i<
+   31 : 0> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/wdata<31 : 0> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_STRM_SKID_BUF/sig_data_skid_reg<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_STRM_SKID_BUF/sig_data_skid_mux_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_STRM_SKID_BUF/sig_data_reg_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<63
+   : 2> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_MMAP_SKID_BUF/sig_data_skid_mux_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_MMAP_SKID_BUF/sig_data_skid_reg<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I_FTCH_CMDSTS_IF/s_axis_f
+   tch_cmd_tdata[71]_ftch_cmnd_data[71]_mux_1_OUT<63 : 5> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_S
+   G/Mmux_update_address[31]_ch1_updt_curdesc[31]_mux_22_OUT_rs_A<31 : 0> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_C
+   MDSTS_IF/s_axis_updt_cmd_tdata[71]_updt_cmnd_data[71]_mux_1_OUT<63 : 2> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_
+   CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<63 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/
+   sig_cmd_fifo_data_out<26 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_
+   xfer_end_strb_im2<3 : 1> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/sig
+   _aq_fifo_data_out<50 : 4> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.GEN_SCATTER_GATHER_MODE.I_MM2S
+   _SM/mm2s_cmnd_data<63 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.GEN_SCATTER_GATHER_MODE.I_MM2S
+   _SG_IF/desc_reg6<27 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.I_MM2S_CMDSTS/s_axis_mm2s_cmd_
+   tdata[71]_mm2s_cmnd_data[71]_mux_1_OUT<65 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file system_axi_dma_0_wrapper.edif ...
+ngc2edif: Total memory usage is 4334492 kilobytes
+
+Release 14.7 - ngc2edif P_INT.20180726 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Reading design system_axi_clkgen_0_wrapper.ngc ...
 WARNING:NetListWriters:298 - No output is written to
    system_axi_clkgen_0_wrapper.xncf, ignored.
@@ -786,7 +949,7 @@ WARNING:NetListWriters:306 - Signal bus
    missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_clkgen_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327324 kilobytes
+ngc2edif: Total memory usage is 4326620 kilobytes
 
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1606402384">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1607671319">
   <File Type="BITSTR-BMM" Name="system_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="system_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="system_timing_summary_init.rpt"/>
@@ -218,13 +218,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/src/shift_pdm.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PPRDIR/src/sysctrl.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -234,6 +227,14 @@
     </File>
     <File Path="$PPRDIR/src/system.v">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/shift_pdm.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
