@@ -1,5 +1,7 @@
 `timescale 1ns/1ps
-
+`include "pdm.v"
+`include "sysctrl.v"
+`include "dbuf.v"
 module tb;
 
 reg g_hclk_es1;

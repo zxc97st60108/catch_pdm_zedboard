@@ -8,10 +8,10 @@
 #include <assert.h>
 
 #define ZYNQ_BASE 0x80000000	 //base address for 64 sequence of integer
-#define CTRL_OFFSET 0x001770A4	 //for ctrl signal c
-#define STATUS_OFFSET 0x001770A8 //for status signal
+#define CTRL_OFFSET 0x00180004	 //for ctrl signal c
+#define STATUS_OFFSET 0x00180008 //for status signal
 
-#define DEPTH 48000
+#define DEPTH 49152
 #define optPath "/mnt/pdm.txt"
 // #include <sys/mman.h>
 
@@ -24,7 +24,7 @@ int main()
 	// uint8_t s_result2;
 
 	volatile int fd = open("/dev/mem", O_RDWR); //volatile是一個變數聲明限定詞,可能會在任何時刻被意外的更新
-	volatile int map_len = 0x00177B00;
+	volatile int map_len = 0x00180104;
 	volatile unsigned int *io = (volatile unsigned int *)mmap(NULL, map_len, PROT_READ | PROT_WRITE, MAP_SHARED, fd, ZYNQ_BASE);
 
 	/*
