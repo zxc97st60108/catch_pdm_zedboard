@@ -66,12 +66,12 @@ initial begin : clk_1_5MHz
      haddr_reg = 32'h40000000;
      #20 hreset_n = 0;
      #10 hreset_n = 1;
-    //  #666
-    //   ctrl = 2'b10;
-    //  #666
-    //   ctrl = 2'b01;
-    //  #666
-    //   ctrl = 2'b00;
+     #666
+      ctrl = 2'b10;
+     #666
+      ctrl = 2'b01;
+     #666
+      ctrl = 2'b00;
 
      // for(n=0;n<1048575;n=n+1)begin   //把八个存储单元的数字都读取出来，若存的数不到八
      // pdm_clk <= ~pdm_clk;

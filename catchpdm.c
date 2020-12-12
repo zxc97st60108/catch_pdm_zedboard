@@ -50,26 +50,26 @@ int main()
 	printf("Zynq_BASE mapping successful :\n0x%x to %p, size = %d\n", ZYNQ_BASE, io, map_len);
 
 	//assign input values to accelerator
-	// *(io + (CTRL_OFFSET >> 2)) = 0x2;
-	// *(io + (CTRL_OFFSET >> 2)) = 0x0;
+	*(io + (CTRL_OFFSET >> 2)) = 0x2;
+	*(io + (CTRL_OFFSET >> 2)) = 0x0;
 
-	// printf("start run\n");
+	printf("start run\n");
 
-	// *(io + (CTRL_OFFSET >> 2)) = 0x1;
-	// printf("give 1\n");
+	*(io + (CTRL_OFFSET >> 2)) = 0x1;
+	printf("give 1\n");
 	// printf("addr : %p \n", (io + (CTRL_OFFSET >> 2)));
 	// printf("value : 0x%d \n", *(io + (CTRL_OFFSET >> 2)));
-	// *(io + (CTRL_OFFSET >> 2)) = 0x0;
+	*(io + (CTRL_OFFSET >> 2)) = 0x0;
 
-	// printf("give 0\n");
+	printf("give 0\n");
 	// printf("addr2 : %p \n", (io + (CTRL_OFFSET >> 2)));
 	// printf("value2 : 0x%d \n", *(io + (CTRL_OFFSET >> 2)));
 
-	// printf("polling busy\n");
+	printf("polling busy\n");
 
 	while (*(io + (STATUS_OFFSET >> 2)) != (volatile unsigned int)0)
 	{
-		// printf("0x%x_ ", *(io + (STATUS_OFFSET >> 2)));
+		printf("0x%x_ ", *(io + (STATUS_OFFSET >> 2)));
 	}
 	printf("operation finish\n");
 
