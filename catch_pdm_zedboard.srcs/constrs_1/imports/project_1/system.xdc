@@ -135,9 +135,13 @@ set_property -dict { PACKAGE_PIN Y10    IOSTANDARD LVCMOS33 } [get_ports { proce
 set_property -dict { PACKAGE_PIN AA9    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[31] }];
 
 set_property -dict { PACKAGE_PIN AB11   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[32] }];    #
-set_property -dict { PACKAGE_PIN AB10   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[33] }];       #
-set_property -dict { PACKAGE_PIN AB9    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[34] }];
-set_property -dict { PACKAGE_PIN AA8    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[35] }];
+set_property -dict { PACKAGE_PIN AB10   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[33] }];       #  
+#set_property -dict { PACKAGE_PIN AB9    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[34] }];
+#set_property -dict { PACKAGE_PIN AA8    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[35] }];
+
+set_property -dict { PACKAGE_PIN AB9   IOSTANDARD LVCMOS33 } [get_ports { pdm_clk }];
+set_property CLOCK_DEDICATED_ROUTE FALSE  [get_nets pdm_clk_IBUF];
+set_property -dict { PACKAGE_PIN AA8   IOSTANDARD LVCMOS33 } [get_ports { pdm_signal}];  
 
 ############################
 #                          #

@@ -69,31 +69,28 @@ wire [31:0] dout;
 reg hwrite_reg;
 reg cen_wait;
 
-assign ctrl = (hwrite_reg && (haddr_reg == 32'h801770A4))? hwdata[1:0] : 2'b00;
+assign ctrl = (hwrite_reg && (haddr_reg == 32'h80180004))? hwdata[1:0] : 2'b00;
 
 // store haddr at address phase
-always @(negedge hreset_n or posedge g_hclk_es1)
-begin
+always @(negedge hreset_n or posedge g_hclk_es1) begin
     if (hreset_n == 0)
         haddr_reg <= 32'h0;
     else
         haddr_reg <= haddr;
 end
 
-always @(negedge hreset_n or posedge g_hclk_es1)
-begin
+always @(negedge hreset_n or posedge g_hclk_es1) begin
     if (hreset_n == 0)
         hwrite_reg <= 1'b0;
     else
         hwrite_reg <= hwrite;
 end
 
-assign hrdata_es1 = (haddr_reg == 32'h801770A8)? {31'h0000_0000, bsy} : dout;
+assign hrdata_es1 = (haddr_reg == 32'h80180008)? {31'h0000_0000, bsy} : dout;
 assign hreadyout_es1 = (cen_wait == 1'b0)? 1'b1:1'b0;
 assign hresp_es1     = 1'b0; //2'b00
 
-always @(posedge g_hclk_es1 or negedge hreset_n)
-begin
+always @(posedge g_hclk_es1 or negedge hreset_n) begin
     if (!hreset_n)
         cen_wait <= 1'b0;
     else if (!hwrite && (haddr[31:8] == 24'h800000) && cen_wait == 0)
@@ -101,6 +98,7 @@ begin
     else
         cen_wait <= 1'b0;
 end
+
 
 pdm_m pdm(
           .AHBclk(g_hclk_es1),

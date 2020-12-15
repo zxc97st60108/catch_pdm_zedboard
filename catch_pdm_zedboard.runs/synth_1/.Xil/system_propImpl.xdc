@@ -143,57 +143,59 @@ set_property src_info {type:XDC file:1 line:137 export:INPUT save:INPUT read:REA
 set_property -dict { PACKAGE_PIN AB11   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[32] }];    #
 set_property src_info {type:XDC file:1 line:138 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN AB10   IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[33] }];       #
-set_property src_info {type:XDC file:1 line:139 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN AB9    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[34] }];
-set_property src_info {type:XDC file:1 line:140 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN AA8    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[35] }];
-set_property src_info {type:XDC file:1 line:147 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:142 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN AB9   IOSTANDARD LVCMOS33 } [get_ports { pdm_clk }];
+set_property src_info {type:XDC file:1 line:143 export:INPUT save:INPUT read:READ} [current_design]
+set_property CLOCK_DEDICATED_ROUTE FALSE  [get_nets pdm_clk_IBUF];
+set_property src_info {type:XDC file:1 line:144 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN AA8   IOSTANDARD LVCMOS33 } [get_ports { pdm_signal}];
+set_property src_info {type:XDC file:1 line:151 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN W12    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[36] }];
-set_property src_info {type:XDC file:1 line:148 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN W11    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[37] }];
-set_property src_info {type:XDC file:1 line:149 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN V10    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[38] }];
-set_property src_info {type:XDC file:1 line:150 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN W8     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[39] }];
 set_property src_info {type:XDC file:1 line:152 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN V12    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[40] }];
+set_property -dict { PACKAGE_PIN W11    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[37] }];
 set_property src_info {type:XDC file:1 line:153 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN W10    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[41] }];
+set_property -dict { PACKAGE_PIN V10    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[38] }];
 set_property src_info {type:XDC file:1 line:154 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W8     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[39] }];
+set_property src_info {type:XDC file:1 line:156 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V12    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[40] }];
+set_property src_info {type:XDC file:1 line:157 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W10    IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[41] }];
+set_property src_info {type:XDC file:1 line:158 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN V9     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[42] }];
-set_property src_info {type:XDC file:1 line:155 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:159 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN V8     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[43] }];
-set_property src_info {type:XDC file:1 line:162 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:166 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN AB7     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[44] }];
-set_property src_info {type:XDC file:1 line:163 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN AB6     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[45] }];
-set_property src_info {type:XDC file:1 line:164 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN Y4      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[46] }];
-set_property src_info {type:XDC file:1 line:165 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN AA4     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[47] }];
 set_property src_info {type:XDC file:1 line:167 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN R6      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[48] }];
+set_property -dict { PACKAGE_PIN AB6     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[45] }];
 set_property src_info {type:XDC file:1 line:168 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN T6      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[49] }];
+set_property -dict { PACKAGE_PIN Y4      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[46] }];
 set_property src_info {type:XDC file:1 line:169 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN AA4     IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[47] }];
+set_property src_info {type:XDC file:1 line:171 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN R6      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[48] }];
+set_property src_info {type:XDC file:1 line:172 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T6      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[49] }];
+set_property src_info {type:XDC file:1 line:173 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN T4      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[50] }];
-set_property src_info {type:XDC file:1 line:170 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:174 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN U4      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[51] }];
-set_property src_info {type:XDC file:1 line:177 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:181 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN V7      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[52] }];
-set_property src_info {type:XDC file:1 line:178 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN W7      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[53] }];
-set_property src_info {type:XDC file:1 line:179 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN V5      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[54] }];
-set_property src_info {type:XDC file:1 line:180 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN V4      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[55] }];
 set_property src_info {type:XDC file:1 line:182 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN W6      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[56] }];
+set_property -dict { PACKAGE_PIN W7      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[53] }];
 set_property src_info {type:XDC file:1 line:183 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN W5      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[57] }];
+set_property -dict { PACKAGE_PIN V5      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[54] }];
 set_property src_info {type:XDC file:1 line:184 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V4      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[55] }];
+set_property src_info {type:XDC file:1 line:186 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W6      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[56] }];
+set_property src_info {type:XDC file:1 line:187 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W5      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[57] }];
+set_property src_info {type:XDC file:1 line:188 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN U6      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[58] }];
-set_property src_info {type:XDC file:1 line:185 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:189 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN U5      IOSTANDARD LVCMOS33 } [get_ports { processing_system7_0_GPIO[59] }];
-set_property src_info {type:XDC file:1 line:194 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:198 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN L16      IOSTANDARD LVCMOS33 } [get_ports { otg_oc }];

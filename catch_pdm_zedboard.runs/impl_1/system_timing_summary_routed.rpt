@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3.1 (win64) Build 2489853 Tue Mar 26 04:20:25 MDT 2019
-| Date         : Fri Dec 11 23:36:12 2020
+| Date         : Mon Dec 14 19:33:11 2020
 | Host         : DESKTOP-4I669P4 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file system_timing_summary_routed.rpt -pb system_timing_summary_routed.pb -rpx system_timing_summary_routed.rpx -warn_on_violation
 | Design       : system
@@ -52,9 +52,9 @@ Table of Contents
 
 1. checking no_clock
 --------------------
- There are 64 register/latch pins with no clock driven by root clock pin: MYIP_TOP_0/pdm/ctrl_m/CS_reg/Q (HIGH)
+ There are 118 register/latch pins with no clock driven by root clock pin: pdm_clk (HIGH)
 
- There are 118 register/latch pins with no clock driven by root clock pin: processing_system7_0/processing_system7_0/PS7_i/EMIOGPIOO[33] (HIGH)
+ There are 64 register/latch pins with no clock driven by root clock pin: MYIP_TOP_0/pdm/ctrl_m/CS_reg/Q (HIGH)
 
  There are 6436 register/latch pins with no clock driven by root clock pin: processing_system7_0/processing_system7_0/PS7_i/FCLKCLK[0] (HIGH)
 
@@ -84,7 +84,7 @@ Table of Contents
 
 5. checking no_input_delay
 --------------------------
- There are 2 input ports with no input delay specified. (HIGH)
+ There are 3 input ports with no input delay specified. (HIGH)
 
  There are 0 input ports with no input delay but user has a false path constraint.
 

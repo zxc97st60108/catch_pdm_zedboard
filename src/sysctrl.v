@@ -44,7 +44,7 @@ always@(*) begin
     endcase
 end
 
-always @(posedge pdm_clk or negedge rst) begin
+always @(negedge pdm_clk or negedge rst) begin
     if(~rst) begin
         pdm <= 32'd0;
     end

@@ -40,9 +40,9 @@ module system
            vga_flyinglogo_0_HSYNC_O_pin,
            vga_flyinglogo_0_RED_O_pin,
            vga_flyinglogo_0_GREEN_O_pin,
-           vga_flyinglogo_0_BLUE_O_pin
-        //    pdm_clk,
-        //    pdm_signal 
+           vga_flyinglogo_0_BLUE_O_pin,
+           pdm_clk,
+           pdm_signal
            /*axi_ahblite_bridge_0_M_AHB_HCLK_pin,
            axi_ahblite_bridge_0_M_AHB_HRESETN_pin,
            axi_ahblite_bridge_0_M_AHB_HADDR_pin,
@@ -58,8 +58,8 @@ module system
            axi_ahblite_bridge_0_M_AHB_HRESP_pin*/
        );
 
-// input pdm_clk;
-// input pdm_signal;
+ input pdm_clk;
+ input pdm_signal;
 
 inout [53:0] processing_system7_0_MIO;
 
@@ -2694,6 +2694,7 @@ IOBUF
         .T ( processing_system7_0_GPIO_T[36] )
     );
 
+/*
 IOBUF
     iobuf_26 (
         .I ( processing_system7_0_GPIO_O[35] ),
@@ -2701,14 +2702,15 @@ IOBUF
         .O ( processing_system7_0_GPIO_I[35] ),
         .T ( processing_system7_0_GPIO_T[35] )
     );
+*/
+// IOBUF
+//     iobuf_27 (
+//         .I ( processing_system7_0_GPIO_O[34] ),
+//         .IO ( processing_system7_0_GPIO[34] ),
+//         .O ( processing_system7_0_GPIO_I[34] ),
+//         .T ( processing_system7_0_GPIO_T[34] )
+//     );
 
-IOBUF
-    iobuf_27 (
-        .I ( processing_system7_0_GPIO_O[34] ),
-        .IO ( processing_system7_0_GPIO[34] ),
-        .O ( processing_system7_0_GPIO_I[34] ),
-        .T ( processing_system7_0_GPIO_T[34] )
-    );
 
 IOBUF
     iobuf_28 (
@@ -2725,6 +2727,7 @@ IOBUF
         .O ( processing_system7_0_GPIO_I[32] ),
         .T ( processing_system7_0_GPIO_T[32] )
     );
+
 
 IOBUF
     iobuf_30 (
@@ -2999,8 +3002,8 @@ MYIP_TOP MYIP_TOP_0(
              .hrdata_es1		(axi_ahblite_bridge_0_M_AHB_HRDATA),
              .hresp_es1		(axi_ahblite_bridge_0_M_AHB_HRESP),
              .hreadyout_es1	(axi_ahblite_bridge_0_M_AHB_HREADY),
-             .pdm_signal   (processing_system7_0_GPIO_O[32]),
-             .pdm_clk      (processing_system7_0_GPIO_O[33])
+             .pdm_signal   (pdm_signal),
+             .pdm_clk      (pdm_clk)
          );
 
 //input_pdm pdm(

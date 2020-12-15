@@ -14,41 +14,41 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 28260 
+INFO: Helper process launched with PID 22484 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 432.895 ; gain = 100.789
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 432.863 ; gain = 100.746
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'system' [D:/Vivado/catch_pdm_zedboard/src/system.v:5]
-INFO: [Synth 8-6157] synthesizing module 'system_vga_flyinglogo_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3016]
-INFO: [Synth 8-6155] done synthesizing module 'system_vga_flyinglogo_0_wrapper' (1#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3016]
-INFO: [Synth 8-6157] synthesizing module 'system_util_vector_logic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3033]
-INFO: [Synth 8-6155] done synthesizing module 'system_util_vector_logic_0_wrapper' (2#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3033]
-INFO: [Synth 8-6157] synthesizing module 'system_processing_system7_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3044]
-INFO: [Synth 8-6155] done synthesizing module 'system_processing_system7_0_wrapper' (3#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3044]
-INFO: [Synth 8-6157] synthesizing module 'system_clock_generator_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4397]
-INFO: [Synth 8-6155] done synthesizing module 'system_clock_generator_0_wrapper' (4#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4397]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_vdma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4452]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_vdma_0_wrapper' (5#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4452]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_spdif_tx_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4649]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_spdif_tx_0_wrapper' (6#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4649]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_3_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4710]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_3_wrapper' (7#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4710]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_2_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5123]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_2_wrapper' (8#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5123]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_1_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5536]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_1_wrapper' (9#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5536]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5949]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_0_wrapper' (10#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5949]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_iic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6362]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_iic_0_wrapper' (11#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6362]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6421]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' (12#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6421]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_dma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6502]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_dma_0_wrapper' (13#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6502]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_clkgen_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6717]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_clkgen_0_wrapper' (14#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6717]
-INFO: [Synth 8-6157] synthesizing module 'system_axi_ahblite_bridge_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6764]
-INFO: [Synth 8-6155] done synthesizing module 'system_axi_ahblite_bridge_0_wrapper' (15#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6764]
+INFO: [Synth 8-6157] synthesizing module 'system_vga_flyinglogo_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3019]
+INFO: [Synth 8-6155] done synthesizing module 'system_vga_flyinglogo_0_wrapper' (1#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3019]
+INFO: [Synth 8-6157] synthesizing module 'system_util_vector_logic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3036]
+INFO: [Synth 8-6155] done synthesizing module 'system_util_vector_logic_0_wrapper' (2#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3036]
+INFO: [Synth 8-6157] synthesizing module 'system_processing_system7_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3047]
+INFO: [Synth 8-6155] done synthesizing module 'system_processing_system7_0_wrapper' (3#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:3047]
+INFO: [Synth 8-6157] synthesizing module 'system_clock_generator_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4400]
+INFO: [Synth 8-6155] done synthesizing module 'system_clock_generator_0_wrapper' (4#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4400]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_vdma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4455]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_vdma_0_wrapper' (5#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4455]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_spdif_tx_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4652]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_spdif_tx_0_wrapper' (6#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4652]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_3_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:4713]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_3_wrapper' (7#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:4713]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_2_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5126]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_2_wrapper' (8#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5126]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_1_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5539]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_1_wrapper' (9#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5539]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:5952]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_0_wrapper' (10#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:5952]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_iic_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6365]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_iic_0_wrapper' (11#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6365]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6424]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_hdmi_tx_16b_0_wrapper' (12#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6424]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_dma_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6505]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_dma_0_wrapper' (13#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6505]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_clkgen_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6720]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_clkgen_0_wrapper' (14#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6720]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_ahblite_bridge_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:6767]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_ahblite_bridge_0_wrapper' (15#1) [D:/Vivado/catch_pdm_zedboard/src/system.v:6767]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23616]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
@@ -68,14 +68,14 @@ INFO: [Synth 8-6157] synthesizing module 'pdm_m' [D:/Vivado/catch_pdm_zedboard/s
 INFO: [Synth 8-6157] synthesizing module 'sysctrl' [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:1]
 	Parameter Idle bound to: 0 - type: integer 
 	Parameter Shift bound to: 1 - type: integer 
-	Parameter bound bound to: 47999 - type: integer 
+	Parameter bound bound to: 49151 - type: integer 
 INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:28]
 INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:62]
 INFO: [Synth 8-6155] done synthesizing module 'sysctrl' (17#1) [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:1]
 INFO: [Synth 8-6157] synthesizing module 'dbuf' [D:/Vivado/catch_pdm_zedboard/src/dbuf.v:1]
 	Parameter Idle bound to: 0 - type: integer 
 	Parameter Shift bound to: 1 - type: integer 
-	Parameter bound bound to: 47999 - type: integer 
+	Parameter bound bound to: 49151 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'dbuf' (18#1) [D:/Vivado/catch_pdm_zedboard/src/dbuf.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'pdm_m' (19#1) [D:/Vivado/catch_pdm_zedboard/src/pdm.v:2]
 INFO: [Synth 8-6155] done synthesizing module 'MYIP_TOP' (20#1) [D:/Vivado/catch_pdm_zedboard/src/MYIP_TOP.v:2]
@@ -170,8 +170,10 @@ WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hready
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hresp[1]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hresp[0]
 WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hsel_es1
+WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[35]
+WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[34]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 521.301 ; gain = 189.195
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.113 ; gain = 189.996
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -184,12 +186,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 521.301 ; gain = 189.195
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.113 ; gain = 189.996
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 521.301 ; gain = 189.195
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.113 ; gain = 189.996
 ---------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -197,40 +199,41 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc]
+WARNING: [Vivado 12-507] No nets matched 'pdm_clk_IBUF'. [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc:143]
 Finished Parsing XDC File [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.570 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 834.570 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 62 instances were transformed.
-  IOBUF => IOBUF (IBUF, OBUFT): 62 instances
+  A total of 60 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 60 instances
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 834.250 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 834.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.570 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 834.570 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 834.250 ; gain = 502.145
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 834.250 ; gain = 502.145
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 834.250 ; gain = 502.145
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "NS" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "didx" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 834.250 ; gain = 502.145
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -249,7 +252,7 @@ Detailed RTL Component Info :
 	                6 Bit    Registers := 1     
 	                1 Bit    Registers := 3     
 +---RAMs : 
-	            1500K Bit         RAMs := 1     
+	            1536K Bit         RAMs := 1     
 +---Muxes : 
 	   2 Input     32 Bit        Muxes := 2     
 	   2 Input     16 Bit        Muxes := 1     
@@ -282,7 +285,7 @@ Detailed RTL Component Info :
 +---Registers : 
 	               32 Bit    Registers := 1     
 +---RAMs : 
-	            1500K Bit         RAMs := 1     
+	            1536K Bit         RAMs := 1     
 Module pdm_m 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -312,8 +315,10 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[35]
+WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[34]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 834.250 ; gain = 502.145
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 834.570 ; gain = 502.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -372,13 +377,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 855.371 ; gain = 523.266
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 857.563 ; gain = 525.445
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 856.336 ; gain = 524.230
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 858.457 ; gain = 526.340
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -436,7 +441,7 @@ INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1
 INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -464,6 +469,8 @@ INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep_n_0  is driving 49 bi
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module processing_system7_0 has unconnected pin GPIO_I[35]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module processing_system7_0 has unconnected pin GPIO_I[34]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_3 has unconnected pin S_AXI_AWLEN[7]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_3 has unconnected pin S_AXI_AWLEN[6]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_3 has unconnected pin S_AXI_AWLEN[5]
@@ -517,7 +524,7 @@ CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnec
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnected pin S_AXI_ARLEN[5]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnected pin S_AXI_ARLEN[4]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -530,7 +537,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -542,25 +549,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -606,20 +613,20 @@ Report Cell Usage:
 |13    |system_processing_system7_0_wrapper |     1|
 |14    |system_util_vector_logic_0_wrapper  |     1|
 |15    |system_vga_flyinglogo_0_wrapper     |     1|
-|16    |BUFG                                |     1|
+|16    |BUFG                                |     2|
 |17    |CARRY4                              |     4|
 |18    |LUT1                                |     2|
 |19    |LUT2                                |     2|
 |20    |LUT3                                |    50|
-|21    |LUT4                                |    38|
-|22    |LUT5                                |    19|
-|23    |LUT6                                |    83|
+|21    |LUT4                                |    41|
+|22    |LUT5                                |    21|
+|23    |LUT6                                |    80|
 |24    |RAMB36E1                            |    32|
 |25    |RAMB36E1_1                          |    32|
 |26    |FDCE                                |   118|
 |27    |FDPE                                |     1|
-|28    |IBUF                                |     2|
-|29    |IOBUF                               |    62|
+|28    |IBUF                                |     4|
+|29    |IOBUF                               |    60|
 |30    |OBUF                                |    35|
 +------+------------------------------------+------+
 
@@ -627,18 +634,18 @@ Report Instance Areas:
 +------+-------------+---------+------+
 |      |Instance     |Module   |Cells |
 +------+-------------+---------+------+
-|1     |top          |         | 13423|
-|2     |  MYIP_TOP_0 |MYIP_TOP |   381|
-|3     |    pdm      |pdm_m    |   340|
+|1     |top          |         | 13426|
+|2     |  MYIP_TOP_0 |MYIP_TOP |   383|
+|3     |    pdm      |pdm_m    |   342|
 |4     |      buff_m |dbuf     |    95|
-|5     |      ctrl_m |sysctrl  |   245|
+|5     |      ctrl_m |sysctrl  |   247|
 +------+-------------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 52 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 886.773 ; gain = 241.719
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 886.773 ; gain = 554.668
+Synthesis finished with 0 errors, 54 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 888.734 ; gain = 244.160
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
 INFO: [Project 1-571] Translating synthesized netlist
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -650,7 +657,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_vga_flyinglogo_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4326236 kilobytes
+ngc2edif: Total memory usage is 4326180 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_vga_flyinglogo_0_wrapper.ngc' for (cell view 'system_vga_flyinglogo_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_vga_flyinglogo_0_wrapper_ngc_968c7d7c.edif]
@@ -665,7 +672,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_util_vector_logic_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4325148 kilobytes
+ngc2edif: Total memory usage is 4325156 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_util_vector_logic_0_wrapper.ngc' for (cell view 'system_util_vector_logic_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_util_vector_logic_0_wrapper_ngc_968c7d7c.edif]
@@ -680,7 +687,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_processing_system7_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4329244 kilobytes
+ngc2edif: Total memory usage is 4329252 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_processing_system7_0_wrapper.ngc' for (cell view 'system_processing_system7_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_processing_system7_0_wrapper_ngc_968c7d7c.edif]
@@ -695,7 +702,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_clock_generator_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4325148 kilobytes
+ngc2edif: Total memory usage is 4325412 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_clock_generator_0_wrapper.ngc' for (cell view 'system_clock_generator_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_clock_generator_0_wrapper_ngc_968c7d7c.edif]
@@ -746,7 +753,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_vdma_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4339484 kilobytes
+ngc2edif: Total memory usage is 4339492 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_vdma_0_wrapper.ngc' for (cell view 'system_axi_vdma_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_vdma_0_wrapper_ngc_968c7d7c.edif]
@@ -767,7 +774,7 @@ WARNING:NetListWriters:306 - Signal bus axi_spdif_tx_0/ipif_Bus2IP_RdCE[7 : 0]
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_spdif_tx_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4326876 kilobytes
+ngc2edif: Total memory usage is 4327396 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_spdif_tx_0_wrapper.ngc' for (cell view 'system_axi_spdif_tx_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_spdif_tx_0_wrapper_ngc_968c7d7c.edif]
@@ -782,7 +789,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_3_wrapper.edif ...
-ngc2edif: Total memory usage is 4326172 kilobytes
+ngc2edif: Total memory usage is 4326436 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_3_wrapper.ngc' for (cell view 'system_axi_interconnect_3_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_3_wrapper_ngc_968c7d7c.edif]
@@ -814,7 +821,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_2_wrapper.edif ...
-ngc2edif: Total memory usage is 4330268 kilobytes
+ngc2edif: Total memory usage is 4330276 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_2_wrapper.ngc' for (cell view 'system_axi_interconnect_2_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_2_wrapper_ngc_968c7d7c.edif]
@@ -883,7 +890,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_1_wrapper.edif ...
-ngc2edif: Total memory usage is 4337436 kilobytes
+ngc2edif: Total memory usage is 4337764 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_1_wrapper.ngc' for (cell view 'system_axi_interconnect_1_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_1_wrapper_ngc_968c7d7c.edif]
@@ -909,7 +916,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4328220 kilobytes
+ngc2edif: Total memory usage is 4328292 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_0_wrapper.ngc' for (cell view 'system_axi_interconnect_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_0_wrapper_ngc_968c7d7c.edif]
@@ -955,7 +962,7 @@ WARNING:NetListWriters:306 - Signal bus
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_iic_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327196 kilobytes
+ngc2edif: Total memory usage is 4327204 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_iic_0_wrapper.ngc' for (cell view 'system_axi_iic_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_iic_0_wrapper_ngc_968c7d7c.edif]
@@ -1432,11 +1439,174 @@ WARNING:NetListWriters:306 - Signal bus
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_hdmi_tx_16b_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4337436 kilobytes
+ngc2edif: Total memory usage is 4336612 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_hdmi_tx_16b_0_wrapper.ngc' for (cell view 'system_axi_hdmi_tx_16b_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_hdmi_tx_16b_0_wrapper_ngc_968c7d7c.edif]
 Finished Parsing EDIF File [./.ngc2edfcache/system_axi_hdmi_tx_16b_0_wrapper_ngc_968c7d7c.edif]
+Release 14.7 - ngc2edif P_INT.20180726 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_axi_dma_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_axi_dma_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_MMAP_SKID_BUF/sig_data_reg_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_MM2S_BASIC.I_MM2S_
+   BASIC_WRAPPER/I_ADDR_CNTL/sig_next_len_reg<4 : 2> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.I_MM2S_CMDSTS/s_axis_mm2s_cmd_
+   tdata<65 : 0> on block system_axi_dma_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.GEN_SCATTER_GATHER_MODE.I_MM2S
+   _SG_IF/updt_desc_reg2<32 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/GE
+   N_INCLUDE_STATUS_FIFO.I_STS_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<7 : 0>
+   on block system_axi_dma_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_MM2S_REGISTERS.I_MM2S_DMA_REGISTER/dmacr_i
+   <2 : 0> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_C
+   MDSTS_IF/s_axis_updt_cmd_tdata<63 : 2> on block system_axi_dma_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/s_axis_s2mm_tdata<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I_FTCH_SG/ftch_cmnd_data<
+   63 : 5> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I_FTCH_CMDSTS_IF/s_axis_f
+   tch_cmd_tdata<63 : 5> on block system_axi_dma_0_wrapper is not reconstructed,
+   because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_MM2S_BASIC.I_MM2S_
+   BASIC_WRAPPER/sig_mstr2addr_len<4 : 2> on block system_axi_dma_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_MM2S_BASIC.I_MM2S_
+   BASIC_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<63
+   : 5> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_S
+   G/updt_cmnd_data<37 : 2> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_wrdata<31
+   : 0> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_wrce<4 :
+   0> on block system_axi_dma_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/wrce<4 : 0> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_wrdata_i<
+   31 : 0> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_AXI_DMA_REG_MODULE/GEN_AXI_LITE_IF.AXI_LITE_IF_I/wdata<31 : 0> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_STRM_SKID_BUF/sig_data_skid_reg<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_STRM_SKID_BUF/sig_data_skid_mux_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_STRM_SKID_BUF/sig_data_reg_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<63
+   : 2> on block system_axi_dma_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_MMAP_SKID_BUF/sig_data_skid_mux_out<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_
+   BASIC_WRAPPER/I_S2MM_MMAP_SKID_BUF/sig_data_skid_reg<31 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_FETCH_MNGR/I_FTCH_CMDSTS_IF/s_axis_f
+   tch_cmd_tdata[71]_ftch_cmnd_data[71]_mux_1_OUT<63 : 5> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_S
+   G/Mmux_update_address[31]_ch1_updt_curdesc[31]_mux_22_OUT_rs_A<31 : 0> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/GEN_SG_ENGINE.I_SG_ENGINE/GEN_DESC_UPDATE.I_SG_UPDATE_MNGR/I_UPDT_C
+   MDSTS_IF/s_axis_updt_cmd_tdata[71]_updt_cmnd_data[71]_mux_1_OUT<63 : 2> on
+   block system_axi_dma_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_CMD_STATUS/I_
+   CMD_FIFO/USE_SINGLE_REG.sig_regfifo_dout_reg<63 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/
+   sig_cmd_fifo_data_out<26 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_MSTR_PCC/sig_
+   xfer_end_strb_im2<3 : 1> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/sig
+   _aq_fifo_data_out<50 : 4> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.GEN_SCATTER_GATHER_MODE.I_MM2S
+   _SM/mm2s_cmnd_data<63 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.GEN_SCATTER_GATHER_MODE.I_MM2S
+   _SG_IF/desc_reg6<27 : 0> on block system_axi_dma_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_dma_0/I_MM2S_DMA_MNGR/GEN_MM2S_DMA_CONTROL.I_MM2S_CMDSTS/s_axis_mm2s_cmd_
+   tdata[71]_mm2s_cmnd_data[71]_mux_1_OUT<65 : 0> on block
+   system_axi_dma_0_wrapper is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file system_axi_dma_0_wrapper.edif ...
+ngc2edif: Total memory usage is 4334116 kilobytes
+
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_dma_0_wrapper.ngc' for (cell view 'system_axi_dma_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_dma_0_wrapper_ngc_968c7d7c.edif]
 Finished Parsing EDIF File [./.ngc2edfcache/system_axi_dma_0_wrapper_ngc_968c7d7c.edif]
@@ -1467,7 +1637,7 @@ WARNING:NetListWriters:306 - Signal bus
    missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_clkgen_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327196 kilobytes
+ngc2edif: Total memory usage is 4327204 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_clkgen_0_wrapper.ngc' for (cell view 'system_axi_clkgen_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_clkgen_0_wrapper_ngc_968c7d7c.edif]
@@ -1502,19 +1672,19 @@ WARNING:NetListWriters:306 - Signal bus
    some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_ahblite_bridge_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327196 kilobytes
+ngc2edif: Total memory usage is 4327204 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_ahblite_bridge_0_wrapper.ngc' for (cell view 'system_axi_ahblite_bridge_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_ahblite_bridge_0_wrapper_ngc_968c7d7c.edif]
 Finished Parsing EDIF File [./.ngc2edfcache/system_axi_ahblite_bridge_0_wrapper_ngc_968c7d7c.edif]
-INFO: [Netlist 29-17] Analyzing 10641 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 10639 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20180726
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 954.016 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.006 . Memory (MB): peak = 953.293 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 7630 instances were transformed.
+  A total of 7628 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 554 instances
   FD => FDRE: 1658 instances
   FDC => FDCE: 372 instances
@@ -1523,7 +1693,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDR => FDRE: 2572 instances
   FDS => FDSE: 60 instances
   INV => LUT1: 392 instances
-  IOBUF => IOBUF (IBUF, OBUFT): 62 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 60 instances
   LUT6_2 => LUT6_2 (LUT5, LUT6): 33 instances
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 2 instances
@@ -1531,12 +1701,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-130 Infos, 91 Warnings, 52 Critical Warnings and 0 Errors encountered.
+130 Infos, 96 Warnings, 54 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 954.020 ; gain = 634.918
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 954.020 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:51 . Memory (MB): peak = 953.293 ; gain = 634.180
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 953.293 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.runs/synth_1/system.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file system_utilization_synth.rpt -pb system_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Dec 11 23:34:09 2020...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 14 19:31:08 2020...

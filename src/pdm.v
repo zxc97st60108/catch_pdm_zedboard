@@ -9,13 +9,10 @@ module pdm_m(
            output wire [31:0] dout,
            output wire bsy
        );
+       
 wire RW;
-// wire [3:0] cidx;
 wire [15:0]  memory_idx;		//memory addr
-// wire [31:0] di, douta;          //coef,
-// wire [15:0] array_idx;		    //pdm array的index
 wire [31:0] pdm_array;
-// wire [31:0] pdm;
 
 //TODO: control module
 sysctrl ctrl_m(
@@ -38,12 +35,5 @@ dbuf buff_m(
          .di(dout)
      );
 
-//TODO: shift pdm module
-// shift_pdm shift_m(
-//               .pdm_signal(pdm_signal),         //輸入pdm資料
-//               .clock(PDMclk),
-//               //              .pdm_data(pdm_array),
-//               .pdm(pdm_array)
-//           );
 
 endmodule

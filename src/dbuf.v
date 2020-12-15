@@ -17,8 +17,7 @@ reg [31:0] mem [0:bound];
 //1 write ; 0 read
 
 // dbuf
-always @(posedge clk)
-begin
+always @(posedge clk) begin
 
     if(RW)
         mem[didx] <= din;
