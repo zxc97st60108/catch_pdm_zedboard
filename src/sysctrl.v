@@ -6,14 +6,16 @@ module sysctrl(
            input wire pdm_signal,         //輸入pdm資料
            output reg [31:0] pdm,
            output reg RW,				//if RW = 1 then 寫入 else
-           output reg [15:0] didx,	//memory_idx
+           output reg [16:0] didx,	//memory_idx
            output reg bsy
        );
-`include "Param.v"
-
+//`include "Param.v"
+localparam Idle = 0;
+localparam Shift = 1;
 reg CS, NS;
 reg [5:0]counter;
 reg cnt_en;
+localparam bound = 48000;
 
 //current state register
 always@(posedge ahb_clk or negedge rst) begin
@@ -48,10 +50,10 @@ always @(negedge pdm_clk or negedge rst) begin
     if(~rst) begin
         pdm <= 32'd0;
     end
-    else if(counter == 6'd0  | ctrl[1])       //if counter == 32 then reset 0
+    /*else if(counter == 6'd0  | ctrl[1])       //if counter == 32 then reset 0
     begin
         pdm <= 32'd0;
-    end
+    end*/
     else if (cnt_en) begin
         pdm <= {pdm[30:0] , pdm_signal};
     end
@@ -97,10 +99,10 @@ end
 //didx2
 always @(posedge pdm_clk or negedge rst) begin
     if(~rst) begin
-        didx <= 16'd0;
+        didx <= 17'd0;
     end
     else if(ctrl[1]) begin
-        didx <= 16'd0;
+        didx <= 17'd0;
     end
     else if(counter == 6'd0 ) //if didx<32 then didx++        counter[4]&counter[3]&counter[2]&counter[1]&counter[0]
     begin

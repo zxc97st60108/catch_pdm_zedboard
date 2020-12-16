@@ -35,24 +35,25 @@ end
 
 initial begin
 
-    #1332
+    #100
      n = 0;
     forever begin
-        #666
+        #20
          n = n+1;
     end
 end
 
 initial begin : clk_1_5MHz
     pdm_clk = 0;
-    #1332
+    #90
      forever begin
-         #333 pdm_clk <= ~pdm_clk;
          pdm_signal <= pdm_data[n];
+         #10 pdm_clk <= ~pdm_clk;
+         
          // if(1536000>n)
          // else
          //     pdm_signal <= 0;
-         if(n == 32768)
+         if(n == 1536000)
              $finish();
          // $display("pdm_clk = %d , pdm_signal = %d , n = %d \n", pdm_clk , pdm_signal , n );
      end
@@ -68,11 +69,11 @@ initial begin : clk_1_5MHz
      haddr_reg = 32'h40000000;
      #20 hreset_n = 0;
      #10 hreset_n = 1;
-     #666
+     #10
       ctrl = 2'b10;
-     #666
+     #10
       ctrl = 2'b01;
-     #666
+     #10
       ctrl = 2'b00;
 
      // for(n=0;n<1048575;n=n+1)begin   //把八个存储单元的数字都读取出来，若存的数不到八
