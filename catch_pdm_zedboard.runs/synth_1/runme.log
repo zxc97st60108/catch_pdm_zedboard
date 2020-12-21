@@ -14,9 +14,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 22484 
+INFO: Helper process launched with PID 4232 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 432.863 ; gain = 100.746
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 432.410 ; gain = 99.457
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'system' [D:/Vivado/catch_pdm_zedboard/src/system.v:5]
 INFO: [Synth 8-6157] synthesizing module 'system_vga_flyinglogo_0_wrapper' [D:/Vivado/catch_pdm_zedboard/src/system.v:3019]
@@ -69,12 +69,10 @@ INFO: [Synth 8-6157] synthesizing module 'sysctrl' [D:/Vivado/catch_pdm_zedboard
 	Parameter Idle bound to: 0 - type: integer 
 	Parameter Shift bound to: 1 - type: integer 
 	Parameter bound bound to: 49151 - type: integer 
-INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:28]
-INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:62]
+INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:30]
+INFO: [Synth 8-226] default block is never used [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:64]
 INFO: [Synth 8-6155] done synthesizing module 'sysctrl' (17#1) [D:/Vivado/catch_pdm_zedboard/src/sysctrl.v:1]
 INFO: [Synth 8-6157] synthesizing module 'dbuf' [D:/Vivado/catch_pdm_zedboard/src/dbuf.v:1]
-	Parameter Idle bound to: 0 - type: integer 
-	Parameter Shift bound to: 1 - type: integer 
 	Parameter bound bound to: 49151 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'dbuf' (18#1) [D:/Vivado/catch_pdm_zedboard/src/dbuf.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'pdm_m' (19#1) [D:/Vivado/catch_pdm_zedboard/src/pdm.v:2]
@@ -173,7 +171,7 @@ WARNING: [Synth 8-3331] design MYIP_TOP has unconnected port hsel_es1
 WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[35]
 WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[34]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.113 ; gain = 189.996
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.020 ; gain = 189.066
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -186,10 +184,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.113 ; gain = 189.996
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 522.020 ; gain = 189.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 522.113 ; gain = 189.996
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 522.020 ; gain = 189.066
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -204,36 +202,36 @@ Finished Parsing XDC File [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/constrs_1/imports/project_1/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.570 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 835.094 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 834.570 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 835.094 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 60 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 60 instances
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 834.570 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 834.570 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 835.094 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 835.094 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 835.094 ; gain = 502.141
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 835.094 ; gain = 502.141
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 835.094 ; gain = 502.141
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "NS" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "didx" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 834.570 ; gain = 502.453
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 835.094 ; gain = 502.141
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -254,12 +252,12 @@ Detailed RTL Component Info :
 +---RAMs : 
 	            1536K Bit         RAMs := 1     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
 	   3 Input      1 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 4     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -276,10 +274,9 @@ Detailed RTL Component Info :
 	                6 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
 	   3 Input      1 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 3     
 Module dbuf 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -318,7 +315,7 @@ Warning: Parallel synthesis criteria is not met
 WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[35]
 WARNING: [Synth 8-3331] design system has unconnected port processing_system7_0_GPIO[34]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 834.570 ; gain = 502.453
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 835.094 ; gain = 502.141
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -377,13 +374,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 857.563 ; gain = 525.445
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 857.742 ; gain = 524.789
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 858.457 ; gain = 526.340
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 858.563 ; gain = 525.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -441,7 +438,7 @@ INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1
 INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-6837] The timing for the instance MYIP_TOP_0/pdm/buff_m/mem_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -461,11 +458,6 @@ Finished Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
 Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep__3_n_0  is driving 51 big block pins (URAM, BRAM and DSP loads). Created 6 replicas of its driver. 
-INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep__2_n_0  is driving 52 big block pins (URAM, BRAM and DSP loads). Created 6 replicas of its driver. 
-INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep__1_n_0  is driving 52 big block pins (URAM, BRAM and DSP loads). Created 6 replicas of its driver. 
-INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep__0_n_0  is driving 52 big block pins (URAM, BRAM and DSP loads). Created 6 replicas of its driver. 
-INFO: [Synth 8-6064] Net \MYIP_TOP_0/pdm/ctrl_m/CS_reg_rep_n_0  is driving 49 big block pins (URAM, BRAM and DSP loads). Created 5 replicas of its driver. 
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
@@ -524,7 +516,7 @@ CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnec
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnected pin S_AXI_ARLEN[5]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module axi_interconnect_0 has unconnected pin S_AXI_ARLEN[4]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -537,7 +529,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -549,25 +541,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -620,10 +612,10 @@ Report Cell Usage:
 |20    |LUT3                                |    50|
 |21    |LUT4                                |    41|
 |22    |LUT5                                |    21|
-|23    |LUT6                                |    80|
+|23    |LUT6                                |    18|
 |24    |RAMB36E1                            |    32|
 |25    |RAMB36E1_1                          |    32|
-|26    |FDCE                                |   118|
+|26    |FDCE                                |    88|
 |27    |FDPE                                |     1|
 |28    |IBUF                                |     4|
 |29    |IOBUF                               |    60|
@@ -634,18 +626,18 @@ Report Instance Areas:
 +------+-------------+---------+------+
 |      |Instance     |Module   |Cells |
 +------+-------------+---------+------+
-|1     |top          |         | 13426|
-|2     |  MYIP_TOP_0 |MYIP_TOP |   383|
-|3     |    pdm      |pdm_m    |   342|
+|1     |top          |         | 13334|
+|2     |  MYIP_TOP_0 |MYIP_TOP |   291|
+|3     |    pdm      |pdm_m    |   250|
 |4     |      buff_m |dbuf     |    95|
-|5     |      ctrl_m |sysctrl  |   247|
+|5     |      ctrl_m |sysctrl  |   155|
 +------+-------------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 890.047 ; gain = 557.094
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 54 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 888.734 ; gain = 244.160
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 888.734 ; gain = 556.617
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 890.047 ; gain = 244.020
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 890.047 ; gain = 557.094
 INFO: [Project 1-571] Translating synthesized netlist
 Release 14.7 - ngc2edif P_INT.20180726 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -702,7 +694,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_clock_generator_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4325412 kilobytes
+ngc2edif: Total memory usage is 4325348 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_clock_generator_0_wrapper.ngc' for (cell view 'system_clock_generator_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_clock_generator_0_wrapper_ngc_968c7d7c.edif]
@@ -774,7 +766,7 @@ WARNING:NetListWriters:306 - Signal bus axi_spdif_tx_0/ipif_Bus2IP_RdCE[7 : 0]
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_spdif_tx_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327396 kilobytes
+ngc2edif: Total memory usage is 4327204 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_spdif_tx_0_wrapper.ngc' for (cell view 'system_axi_spdif_tx_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_spdif_tx_0_wrapper_ngc_968c7d7c.edif]
@@ -789,7 +781,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_3_wrapper.edif ...
-ngc2edif: Total memory usage is 4326436 kilobytes
+ngc2edif: Total memory usage is 4326692 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_3_wrapper.ngc' for (cell view 'system_axi_interconnect_3_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_3_wrapper_ngc_968c7d7c.edif]
@@ -821,7 +813,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_2_wrapper.edif ...
-ngc2edif: Total memory usage is 4330276 kilobytes
+ngc2edif: Total memory usage is 4329828 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_2_wrapper.ngc' for (cell view 'system_axi_interconnect_2_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_2_wrapper_ngc_968c7d7c.edif]
@@ -916,7 +908,7 @@ WARNING:NetListWriters:306 - Signal bus
    reconstructed, because there are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_interconnect_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4328292 kilobytes
+ngc2edif: Total memory usage is 4328228 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_interconnect_0_wrapper.ngc' for (cell view 'system_axi_interconnect_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_interconnect_0_wrapper_ngc_968c7d7c.edif]
@@ -1439,7 +1431,7 @@ WARNING:NetListWriters:306 - Signal bus
    are some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_hdmi_tx_16b_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4336612 kilobytes
+ngc2edif: Total memory usage is 4336484 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_hdmi_tx_16b_0_wrapper.ngc' for (cell view 'system_axi_hdmi_tx_16b_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_hdmi_tx_16b_0_wrapper_ngc_968c7d7c.edif]
@@ -1605,7 +1597,7 @@ WARNING:NetListWriters:306 - Signal bus
    bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_dma_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4334116 kilobytes
+ngc2edif: Total memory usage is 4334372 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_dma_0_wrapper.ngc' for (cell view 'system_axi_dma_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_dma_0_wrapper_ngc_968c7d7c.edif]
@@ -1672,17 +1664,17 @@ WARNING:NetListWriters:306 - Signal bus
    some missing bus signals.
   finished :Prep
 Writing EDIF netlist file system_axi_ahblite_bridge_0_wrapper.edif ...
-ngc2edif: Total memory usage is 4327204 kilobytes
+ngc2edif: Total memory usage is 4326692 kilobytes
 
 Reading core file 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.srcs/sources_1/imports/imple/system_axi_ahblite_bridge_0_wrapper.ngc' for (cell view 'system_axi_ahblite_bridge_0_wrapper', library 'work')
 Parsing EDIF File [./.ngc2edfcache/system_axi_ahblite_bridge_0_wrapper_ngc_968c7d7c.edif]
 Finished Parsing EDIF File [./.ngc2edfcache/system_axi_ahblite_bridge_0_wrapper_ngc_968c7d7c.edif]
 INFO: [Netlist 29-17] Analyzing 10639 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
 INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20180726
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.006 . Memory (MB): peak = 953.293 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 953.512 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 7628 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 554 instances
@@ -1701,12 +1693,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-130 Infos, 96 Warnings, 54 Critical Warnings and 0 Errors encountered.
+125 Infos, 96 Warnings, 54 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:51 . Memory (MB): peak = 953.293 ; gain = 634.180
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 953.293 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 953.512 ; gain = 633.578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 953.512 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.runs/synth_1/system.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file system_utilization_synth.rpt -pb system_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Dec 14 19:31:08 2020...
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 17 00:12:23 2020...

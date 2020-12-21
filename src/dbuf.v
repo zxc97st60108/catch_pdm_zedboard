@@ -1,7 +1,7 @@
 module dbuf(
            input wire clk,
            input wire [31:0] din, //input
-           input wire [16:0] didx, //address
+           input wire [15:0] didx, //address
            input wire RW,
            output reg [31:0] di
        );

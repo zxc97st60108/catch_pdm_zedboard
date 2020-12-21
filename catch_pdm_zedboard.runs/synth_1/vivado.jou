@@ -2,8 +2,8 @@
 # Vivado v2018.3.1 (64-bit)
 # SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
 # IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
-# Start of session at: Mon Dec 14 19:30:10 2020
-# Process ID: 22576
+# Start of session at: Thu Dec 17 00:11:24 2020
+# Process ID: 15436
 # Current directory: D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.runs/synth_1
 # Command line: vivado.exe -log system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system.tcl
 # Log file: D:/Vivado/catch_pdm_zedboard/catch_pdm_zedboard.runs/synth_1/system.vds

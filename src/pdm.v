@@ -9,9 +9,9 @@ module pdm_m(
            output wire [31:0] dout,
            output wire bsy
        );
-       
+
 wire RW;
-wire [16:0]  memory_idx;		//memory addr
+wire [15:0]  memory_idx;		//memory addr
 wire [31:0] pdm_array;
 
 //TODO: control module
@@ -30,7 +30,7 @@ sysctrl ctrl_m(
 dbuf buff_m(
          .clk((bsy) ? PDMclk : AHBclk),
          .din(pdm_array),      //if (bsy) then (douta)  else  (pdm_signal)
-         .didx((bsy) ? memory_idx : addr[18:2]), //不是15:0是因為軟體端送過來是0,4,8,12... 例:32'h8000_0104,08,0C每次加4  除4後才是index
+         .didx((bsy) ? memory_idx : addr[17:2]), //不是15:0是因為軟體端送過來是0,4,8,12... 例:32'h8000_0104,08,0C每次加4  除4後才是index
          .RW(RW),
          .di(dout)
      );
