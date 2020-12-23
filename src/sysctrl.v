@@ -29,10 +29,10 @@ end
 always@(*) begin
     case(CS)
         Idle: begin
-            if(ctrl[0])
-                NS=Shift;
-            else
+            if(didx == bound)
                 NS=Idle;
+            else
+                NS=Shift;
         end
         Shift: begin
             if(didx == bound)
@@ -46,7 +46,7 @@ always@(*) begin
     endcase
 end
 
-always @(negedge pdm_clk or negedge rst) begin
+always @(posedge pdm_clk or negedge rst) begin
     if(~rst) begin
         pdm <= 32'd0;
     end
@@ -84,7 +84,7 @@ end
 
 //counter   改用下數 若用上數 第一次進來的32bit會少1bit
 always @(posedge pdm_clk or negedge rst) begin
-    if(~rst | ctrl[1]) begin
+    if(~rst ) begin
         counter <= 6'd32;
     end
     else if(counter == 6'd0 )       //if counter == 32 then reset 0     counter[4]&counter[3]&counter[2]&counter[1]&counter[0] | ctrl[1]
@@ -101,9 +101,9 @@ always @(posedge pdm_clk or negedge rst) begin
     if(~rst) begin
         didx <= 16'd0;
     end
-    else if(ctrl[1]) begin
-        didx <= 16'd0;
-    end
+    // else if(ctrl[1]) begin
+    //     didx <= 16'd0;
+    // end
     else if(counter == 6'd0 ) //if didx<32 then didx++        counter[4]&counter[3]&counter[2]&counter[1]&counter[0]
     begin
         didx <= didx+1'b1;

@@ -6,8 +6,10 @@ module dbuf(
            output reg [31:0] di
        );
 //`include "Param.v"
-//wire [31:0] mem1 ;
-//wire [31:0] mem0 ;
+wire [31:0] mem1 ;
+wire [31:0] mem0 ;
+wire [31:0] mem2 ;
+wire [31:0] mem3 ;
 // wire mem2 [31:0];
 // wire mem1 [31:0];
 // wire mem1 [31:0];
@@ -30,8 +32,10 @@ always @(posedge clk) begin
     di <= RW ? din : mem[didx];
 end
 
-//assign mem0 = mem[0];
-//assign mem1 = mem[1];
+assign mem0 = mem[0];
+assign mem1 = mem[1];
+assign mem2 = mem[2];
+assign mem3 = mem[3];
 
 endmodule
 

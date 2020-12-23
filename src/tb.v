@@ -47,13 +47,13 @@ initial begin : clk_1_5MHz
     pdm_clk = 0;
     #90
      forever begin
-         pdm_signal <= pdm_data[n];
+         pdm_signal <= 1;
          #10 pdm_clk <= ~pdm_clk;
          
          // if(1536000>n)
          // else
          //     pdm_signal <= 0;
-         if(n == 1536000)
+         if(n == 10000)
              $finish();
          // $display("pdm_clk = %d , pdm_signal = %d , n = %d \n", pdm_clk , pdm_signal , n );
      end
